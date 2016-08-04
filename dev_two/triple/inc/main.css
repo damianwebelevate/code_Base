@@ -1,0 +1,3405 @@
+/* ==========================================================================
+   global css changes
+   ========================================================================== */
+
+/*.container-fluid{
+    padding: 0;
+}*/
+
+.social{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+
+.social_fb:before{
+    content: url(../img/facebook.png);
+    width: 30px;
+    height: 30px;
+}
+
+.social_fb:hover{
+    content: url(../img/facebook_hover.png);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.social_tw:before{
+    content: url(../img/twitter.png);
+    width: 30px;
+    height: 30px;
+}
+
+.social_tw:hover{
+    content: url(../img/twitter_hover.png);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.social_yt:before{
+    content: url(../img/youtube.png);
+    width: 30px;
+    height: 30px;
+}
+
+.social_yt:hover{
+    content: url(../img/youtube_hover.png);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.social_insta:before{
+    content: url(../img/instagram.png);
+    width: 30px;
+    height: 30px;
+}
+
+.social_insta:hover{
+    content: url(../img/instagram_hover.png);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.orderTitle{
+    text-align: center; color: #B8A14F; font-family: 'Playfair Display SC', serif !important;
+}
+
+
+.ordertable{
+    border: 1px solid #B8A14F;
+}
+
+.ordertable th, .ordertable td{
+   border: 1px solid #B8A14F; 
+   padding-left: 3px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Times';
+}
+
+div, header, nav{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header, nav, aside, section, footer{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+[type='button']{
+    margin-top: 10px;
+}
+
+header{
+    overflow: auto;
+    padding: 20px;
+}
+
+header img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*input*/
+
+.input{
+    font-size: 20px;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+/* ==========================================================================
+   From Previous Site
+   ========================================================================== */
+
+.contact p{
+    text-align: left;
+    font-family: 'Open Sans';
+}
+
+div.sponsorship{
+    padding: 30px;
+    margin: 0 0 20px 0;
+    background-image: url(../img/sponsorship-background.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+    min-height: 426px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div.award{
+    padding: 30px;
+    margin: 0 0 20px 0;
+    background-image: url(../img/award_blankets.jpg);
+    background-size: 100% 100%;
+/*    height: 500px;*/
+    min-height: 411px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+p.sponsorslogos{
+    width: 16%;
+    height: 120px;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.sponsorship h1, h1.ourriders, .award h1 {
+    color: #B8A14F !important;
+    border-bottom: 1px solid #B8A14F;
+    width: 60%;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 15px 0 25px 0;
+    padding: 0;
+    background: transparent !important;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif !important;
+}
+
+p.sponsorship{
+    color: #fff !important;
+    width: 50%;
+    text-align: left;
+    font-family: 'Open Sans';
+}
+
+div.difference {
+    padding: 30px;
+    margin: 0 0 20px 0;
+    background-image: url(../img/tcc_aboutus_bg.jpg);
+    background-size: 100% 100%;
+    color: #fff !important;
+}
+
+.difference-points {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    color: #fff !important;
+}
+
+.difference p{
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    font-family: 'Open Sans';
+    color: #fff !important;
+}
+
+.difference h1 {
+    color: #fff !important;
+    border-bottom: 1px solid #B8A14F;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 80px;
+    margin: 15px 0 25px 0;
+    padding: 0;
+    background: transparent !important;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times' !important;
+}
+
+.difference h2{
+    color: #fff !important;
+    font-size: 20px;
+    color: #B8A14F !important; 
+    text-transform: uppercase; 
+}
+
+/* ==========================================================================
+   End Previous Site
+   ========================================================================== */
+
+
+ul.amy_list{
+    list-style: none;
+    margin: 20px 24px !important;
+}
+
+ul.amy_list li{
+    background-image: url(../img/bullet_gold.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+    padding-left: 25px;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+
+.icon_list{
+    list-style-type: none;
+}
+
+.icon_list li{
+    display: inline;
+    float: left;
+}
+
+#viewTerms:hover ,#showInfo:hover ,#showZoom:hover ,#viewGuide:hover,#viewColorGuide:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+/*top navigation*/
+#top ul{
+    list-style-type: none;
+}
+
+#top ul li>a{
+    color: #fff;
+}
+
+#primary-navigation{
+    font-size: 16px;
+    margin: 0 !important;
+}
+
+
+
+.footer_text{
+    font-family: 'Great Vibes', cursive;
+    color: #0D416E;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gold{
+    background-color: #B8A14F;
+    overflow: visible;
+}
+
+.goldText{
+    color: #B8A14F;
+}
+
+
+.button_holder{
+    /*height: 24px;*/
+    width: 100%;
+}
+
+.sidebar{
+    width: 100%;
+}
+
+/*.maincontent{
+    width: 100%;
+    height: 600px;
+}*/
+
+
+.nopadding{
+    padding: 0 !important;
+}
+
+.nopadding2{
+    padding: 0 !important;
+}
+/*footer */
+.padding{
+    padding: 10px;
+    color: #B8A14F;
+    margin-top: 20px;
+}
+
+footer p{
+    font-family: 'Open Sans', 'Times';
+}
+
+.white{
+    background-color: #fff;
+}
+
+
+.title, .entry-title, h1.page-title{
+    background-image: url(../img/crown.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 34px;
+    padding-left: 50px !important;
+    color: #B8A14F;
+    text-transform: uppercase;
+    margin-bottom: 34px !important;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+}
+
+.steps{
+    display: inline-block;
+    float: left;
+    width: 24%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #0D416E;
+    padding: 10px;
+    overflow: auto;
+}
+
+#a, #b, #c{
+    margin-right: 1%;
+    margin-left: 0;
+}
+
+
+h2.step{
+    background-color: #0D416E;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+}
+
+
+.clear{
+    content: "";
+    clear: both;
+}
+
+/*styles associated with getting the images to align on top and to use shortcode*/
+
+/*main css loaded in functions.php file and output to screen*/
+
+/*currently output directly into a page via rug_page.php*/
+
+
+p{
+    display: block;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#maincontent{
+    position: relative;
+    height: 600px;
+}
+
+#maincontent img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mainImageLeft{
+    z-index: 20;
+}
+#defaultBaseColor{
+    z-index: 40;
+}
+#defaultPipingColor{
+    z-index: 80;
+}
+#defaultBindingColor{
+    z-index: 60;
+}
+
+.button{
+    width: 80px;
+    height: 50px;
+    background-color: ;
+}
+
+
+.php{
+    width: 100%;
+    overflow: visible;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+
+.list2{
+    list-style-type: none;
+    margin: 0px 5px 5px 10px;
+}
+
+.list2 li{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin: 2px;
+    display: inline;
+}
+
+.list2 li:hover{
+    cursor: pointer;
+}
+
+.list2wrapper{
+    position: relative; 
+    display: block; 
+    overflow: auto;
+}
+
+#sidebar{
+    width: 25%;
+    padding: 0px 20px 20px 0px;
+}
+
+#sidebar2{
+    width: 25%;
+    padding: 0px 20px 20px 0px;
+}
+
+
+#maincontent2{
+    width: 75%;
+}
+
+
+#maincontent2, #sidebar2{
+    display: inline;
+    float: left;
+    overflow: visible;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#inner_sidebar{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+}
+
+
+#maincontent{
+    width: 75%;
+    height: 655px;
+}
+
+
+#maincontent, #sidebar{
+    display: inline;
+    float: left; 
+}
+
+
+
+.gold2{
+    background-color: #B8A14F;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+    text-align: center;
+    margin-top: 10px;
+}
+
+.canvas{
+    display: none;
+}
+
+/* ==========================================================================
+   homepage
+   ========================================================================== */
+
+.homepage_jumbo{
+    background-image: url(../img/jumbotron-background.jpg);
+    background-repeat: no-repeat;
+    max-width: 1061px;
+    background-size: cover;
+    background-position: center center;
+    height: 460px;
+    margin: 0 auto;
+
+}
+
+
+h1.calltoaction{
+    position: relative;
+    overflow: visible;
+    color: #fff !important;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+}
+
+.cta{
+    font-size: 1.5em;
+    width: 100% !important;
+}
+
+
+.margin_top{
+    margin-top: 3%;
+}
+
+.caption{
+    background-color: #0D416E;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+    text-align: center;
+}
+
+.caption h1{
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+/* ==========================================================================
+        RUG colors
+   ========================================================================== */
+
+
+
+.navy{
+    background-color: #2A3244;
+    color: #fff;
+}
+
+.royalblue{
+    background-color: #1278B9;
+}
+
+.huntergreen{
+    background-color: #335045;
+}
+
+.burgundy{
+    background-color: #7D3443;
+}
+
+.black{
+    background-color: #2E3235;
+}
+
+.silver_grey{
+    background-color: #BBBCBC;
+}
+
+.brown{
+    background-color: #574634;
+}
+
+.red{
+    background-color: #C81D31;
+}
+
+/* ==========================================================================
+        BINDING COLORS
+   ========================================================================== */
+
+.bind_navy{
+    background-color: #2A3244;
+}
+
+.bind_royalblue{
+    background-color: #2760A7;
+}
+
+.bind_lightblue{
+    background-color: #B5CED4;
+}
+
+.bind_huntergreen{
+    background-color: #315D54;
+}
+
+.silvergrey{
+    background-color: #BBBCBC;
+}
+
+.bind_black{
+    background-color: #343333;
+}
+
+.bind_cream{
+    background-color: #E5D0B1;
+}
+
+.bind_tan{
+    background-color: #D8C09D;
+}
+
+.bind_brown{
+    background-color: #574634;
+}
+
+.bind_purple{
+    background-color: #59497F;
+}
+
+.bind_burgundy{
+    background-color: #6A323F;
+}
+
+.bind_red{
+    background-color: #C81D31;
+}
+
+.bind_orange{
+    background-color: #D96D39;
+}
+
+.bind_gold{
+    background-color: #F2AB46;
+}
+
+.bind_yellow{
+    background-color: #FFD02E;
+}
+.bind_white{
+    background-color: #F4F5F0;
+}
+
+.turquoise{
+    background-color: #00B29B;
+}
+
+.bind_hotpink{
+    background-color: #E95985;
+}
+
+/* ==========================================================================
+        PIPING COLORS
+   ========================================================================== */
+.pipe_navy{
+    background-color: #2A3244;
+}
+
+.pipe_royalblue{
+    background-color: #2760A7;
+}
+
+.pipe_lightblue{
+    background-color: #B5CED4;
+}
+
+.pipe_huntergreen{
+    background-color: #315D54;
+}
+
+.pipe_grey{
+    background-color: #BBBCBC;
+}
+
+.pipe_black{
+    background-color: #343333;
+}
+
+.pipe_cream{
+    background-color: #E5D0B1;
+}
+
+.pipe_tan{
+    background-color: #D8C09D;
+}
+
+.pipe_brown{
+    background-color: #574634;
+}
+
+.purple{
+    background-color: #59497F;
+}
+
+.pipe_burgundy{
+    background-color: #6A323F;
+}
+
+.pipe_red{
+    background-color: #C81D31;
+}
+
+.pipe_orange{
+    background-color: #D96D39;
+}
+
+.pipe_gold{
+    background-color: #F2AB46;
+}
+
+.pipe_yellow{
+    background-color: #FFD02E;
+}
+
+.white{
+    background-color: #F4F5F0;
+}
+
+.pipe_turquoise{
+    background-color: #00B29B;
+}
+
+.pipe_hotpink{
+    background-color: #E95985;
+}
+
+.pipe_silver{
+    background-color: #BBBCBC;
+}
+
+
+
+
+
+/* ==========================================================================
+        colors other
+   ========================================================================== */
+
+.navy2{
+    background-color: #0D416E;
+}
+
+/* ==========================================================================
+        ringside category listing page
+   ========================================================================== */
+
+.readmore{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+    
+}
+
+.light{
+   background-color: lightgrey; 
+   color: #000000;
+   font-weight: 900;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.readmore a{
+    color: #fff;
+}
+
+.readmore:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+}
+
+.readmore a:hover{
+    text-decoration: none;
+}
+
+.no_dec:hover{
+    text-decoration: none;
+}
+
+.category_list{
+    width: 300px; 
+    height: 440px; 
+    display: inline-block; 
+    margin: 0px 20px; 
+/*    padding: 10px;*/
+    /*background-color: #F4F5F0;*/
+    /*background-color: #0D416E;*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.category_list h3 {
+    margin-left: 10px;
+    color: #B8A14F;
+    font-family: 'Times';
+    /* text-transform: lowercase; */
+    text-align: left;
+    font-size: 26px;
+    background-image: url(../img/crown.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 30px 26px;
+    padding-left: 40px;
+    margin-left: 45px;
+}
+
+.category_list h4{
+    font-family: 'Times';
+    text-align: center;
+    color: black;
+}
+
+.category_list_ul{
+    list-style-type: none;
+}
+
+.category_list_ul li{
+    display: inline;
+    float: left;
+    margin-bottom: 40px;
+}
+
+/* ==========================================================================
+        rug page customisations
+   ========================================================================== */
+
+.hideShow{
+    width: 100%; 
+    height: 30px; 
+    padding: 2px; 
+    text-align: center; 
+    color: #fff; 
+    background-color: #0D416E;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.hideShow:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+#loading{
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    background: lightgrey;
+}
+
+.innerLoading{
+    width: 50%;
+    height: 50%;
+    margin: 10% auto;
+    background: white;
+    text-align: left;
+    padding-top: 10%; 
+    padding-left: 10%;
+}
+
+.innerProduct{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: left;
+    padding: 5%;
+}
+
+.rightArrow{
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #0D416E;
+}
+
+.topMenuList{
+    list-style-type: none;
+    margin: 19px 0px 0px 0px !important;
+    padding: 0;
+}
+
+.topMenuList li{
+    display: inline;
+    float: left;
+}
+
+.topMenuListItem{
+    width: 170px;
+    text-align: left;
+    color: #0D416E; 
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.topMenuListItemLast{
+    background-color: #0D416E; 
+    color: white;
+    width: 130px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.topMenuListItem i{
+    margin-right: 10px;
+}
+
+.topMenuListItem:hover{
+    background-color: transparent;
+    color: #B8A14F;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.topMenuListItemLast:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.topMenuListItemLast, .rightArrow{
+    display: inline; 
+    float:left;
+}
+
+
+/* ==========================================================================
+   Add Text Logo Page
+   ========================================================================== */
+
+    .divForCanvasMain{
+        position: relative; 
+        top: 0px; left: 0px; 
+/*        background-color: red; */
+        width: 100%; 
+        height: 100%; 
+        display: block;
+    }
+
+    .divForCanvasMain p{
+        color: white;
+        font-weight: bold;
+    }
+
+    .divForCanvasFifty{
+        position: relative;
+        width: 50%; 
+        height: 50%;
+/*        border: 1px solid black;*/
+        display: inline;
+        float: left;
+        color: white;
+ /*       z-index: 80;*/
+    }
+
+
+
+    #horse{
+        z-index: 40;
+    }
+
+    #aRegion, #bRegion{
+        z-index: 80;
+    }
+
+    /* font sizes */
+    .small{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .medium{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .large{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .textPageButton, .printButton{
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+        font-weight: bold;
+        font-family: 'Arial';
+        padding: 0;
+        text-align: center;
+        line-height: 2.5;
+        display: inline;
+        float: left;
+        margin: 0;
+    }
+  
+
+    .textPageButton:hover{
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .printButton{
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .printButton:hover{
+        cursor: pointer;
+    }
+
+    #neckTitle, #middleTitle, #frontTitle, #backTitle{
+        color: black;
+        background: white;
+        font-size: 1.5em;
+    }
+
+    #frontTitle:hover, #neckTitle:hover, #middleTitle:hover, #backTitle:hover{
+        cursor: pointer;
+    }
+
+    .showAll{
+        display: inline;
+        float: left;
+        height: 50px;
+        font-size: 1.3em;
+        font-weight: bold;
+        font-family: 'Arial';
+        padding: 0;
+        line-height: 1.8;
+        color: #fff;
+        padding: 10px;
+    }
+
+    #textMenu{
+        padding: 0px 0px 10px 0px;
+    }
+
+    .holder{
+        margin-top: 10px; 
+        position: relative; 
+        display: block;
+        height: 100%;
+        border: 1px solid #eee;
+    }
+
+    .firstSection, .lastSection{
+        width: 16%;
+    }
+    .midSection{
+        width: 68%;
+        text-align: center;
+    }
+
+    .firstSection, .midSection, .lastSection{
+        display: inline;
+        float: left;
+    }
+
+    #menuNeckText, #menuMiddleText, #menuBackText, #menuFrontText, #requestText{
+        border: 1px solid black;
+        /*border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-border-radius: 10px;*/
+        padding: 5px;
+        margin: 0;
+    }
+
+    .fontFamily, .fontColor{
+        width: 48%;  
+        display: inline; 
+        float: left; 
+        text-align: center; 
+/*        padding: 10px; */
+        color: white;
+    }
+
+    .fontFamily{
+        margin-right: 2%;
+    }
+
+    .fontColor{
+        margin-left: 2%;
+    }
+
+    .font-options-container{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        padding-bottom: 10px;
+    }
+
+    .sub-fontFamily{
+        text-transform: uppercase; 
+        float: left; 
+        display: block; 
+        background-color: #B8A14F; 
+        width: 100%;
+    }
+
+    .sub-fontOpt{
+        border: 1px solid lightgrey; 
+        margin-bottom: 10px; 
+        width: 100%; 
+        color: black;
+        overflow: auto;
+    }
+
+    #showFontFamily:hover, #showFontColor:hover, #m_showFontFamily:hover, #b_showFontFamily:hover, #f_showFontFamily:hover, #m_showFontColor:hover, #b_showFontColor:hover, #f_showFontColor:hover{
+        cursor: pointer;
+        background-color: lightgrey;
+    }
+
+    .font-list, .font-color-list{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .font-list li:hover{
+        cursor: pointer;
+        background-color: #0D416E;
+        color: #fff;
+    }
+
+    .font-color-list li>p:hover{
+        cursor: pointer;
+        border: 1px solid green;
+    }
+
+    .font-color-list li>p{
+        border: 1px solid transparent;
+    }
+
+    .mini-block{
+        width: 30px;
+        height: 30px;
+        display: inline;
+        float: left;
+    }
+
+    .mini-block-border{
+        border: 1px solid black;
+        margin-left: 10px;
+        margin-top: -4px;
+    }
+
+    .mini-block:hover{
+        cursor: pointer;
+    }
+
+    .mini-box-p, .mini-block{
+        display: inline;
+        float: left;
+    }
+
+    /*lightboxes*/
+
+    #closeProductInfo{
+        width: 220px; font-size: 1.5em; padding: 20px; color: #fff; border: 1px solid transparent; background-color: #0D416E; float: right; display: block; margin-bottom: 50px; text-align: center;
+    }
+
+    #closeProductInfo:hover{
+        cursor: pointer; background-color: transparent; color: #000; border: 1px solid black;
+    }
+
+    #closeNeckMenu, #closeMiddleMenu, #closeFrontMenu, #closeBackMenu, #closeRequestArea{
+        text-align: center; display: block; background-color: lightgrey; color: black; border: 1px solid transparent;
+    }
+
+    #closeNeckMenu:hover, #closeMiddleMenu:hover, #closeFrontMenu:hover, #closeBackMenu:hover, #closeRequestArea:hover{
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+
+    #lightbox, #infoLightBox, #zoomLightBox, #userGuideLightBox, #orderSummaryLightBox{
+        position:fixed; /* keeps the lightbox window in the current viewport */
+        top:0; 
+        left:0; 
+        width:100%; 
+        height:100%; 
+        background: transparent; 
+        text-align:center;
+        z-index: 120;
+    }
+
+    .pageLoadingLightbox, #pageLoadingLightbox{
+        position:fixed; /* keeps the lightbox window in the current viewport */
+        top:0; 
+        left:0; 
+        width:100%; 
+        height:100%; 
+        background: lightgrey; 
+        text-align:center;
+        z-index: 120;
+    }
+
+    #innerLightbox{
+        width: 80%;
+        background: #fff;
+        margin: 50px auto;
+        position: relative;
+        top: 50px;
+        height: 600px;
+        z-index: 400;
+        padding: 0px 0px 0px 50px;
+        box-shadow: 0px 3px 0px 10px #B8A14F;
+    }
+
+
+    #p, #closeInfo, #closeInfo, #closeGuide, #closeOrder{
+        color: #fff;
+    }
+
+    #p:before , #closeInfo:before, #closeZoom:before, #closeGuide:before, #closeOrder:before{
+        float: right;
+        content: "X";
+        font-weight: bold;
+        font-family: 'Arial';
+        font-size: 1.6em;
+        line-height: 1.6;
+        background-color: #B8A14F;
+        border-radius: 100%;
+        -moz-border-radius: 100px;
+        -o-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        padding: 10px;
+        width: 50px;
+        right: -30px;
+        position: relative;
+        top: -30px;
+    }
+
+    #p:hover, #closeInfo:hover, #closeZoom:hover, #closeGuide:hover, #closeOrder:hover{
+        color: red;
+        cursor: pointer;
+    }
+
+    .theContent{
+        text-align: left;
+    }
+
+    .lightButton{
+        background-color: #0D416E;
+        color: #fff;
+        padding: 5px;
+        font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .lightButton:hover{
+        color: black;
+        background: lightgrey;
+        cursor: pointer;
+    }
+
+    .lightButton2{
+        background-color: #B8A14F;
+        color: #fff;
+        padding: 5px;
+        font-family: 'Playfair Display SC', 'Open Sans', 'Times';
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .lightButton2:hover{
+        color: black;
+        background: lightgrey;
+        cursor: pointer;
+    }
+
+    .insideTableCell{
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 20px;
+        background: #fff;
+    }
+
+
+    .theContent{
+        height: 400px;
+        overflow: scroll;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+
+    /*userPanel3 call now and next step*/
+    .userPanel, .userPanel3{
+        display: inline; 
+        float: left; 
+        margin: 0; 
+        padding: 5px 5px 5px 0px; 
+        width:32%;
+        color: inherit;
+        background-color: inherit;
+    }
+
+    .hideShow2{
+        display: none;
+        content: "";
+        font-size: 3px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+
+/* ==========================================================================
+   Mobile Menu Container
+   ========================================================================== */
+
+   .mobile_menu_container{
+        width: 100%;
+        position: relative;
+        display: block;
+/*        border: 1px solid red;*/
+        margin-top: 15px;
+   }
+
+   .mobile_menu_container div{
+        position: relative;
+    }
+
+   .inMobileFifty{
+        width: 50%;
+        display: inline;
+        float: left;
+/*        border: 1px solid blue;*/
+   }
+
+   .inMobileThird{
+        width: 33.3333333333333%;
+        display: inline;
+        float: left;
+    }
+
+    #leftA{
+        margin-top: 10px;
+    }
+
+    #space{
+        display: none;
+    }
+    #margin2{
+        padding: 0;
+    }
+
+    #canvasHorse{
+
+    }
+
+    
+
+
+/* ==========================================================================
+   Variable text positions
+   class associated with variable text positions based on rug selection
+   ========================================================================== */
+
+/* ==========================================================================
+        edit positions icons
+   ========================================================================== */
+
+#iconNeck, #iconFront, #iconMiddle, #iconBack{
+    background-image: url('../img/TCC_Icons-05.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    position: relative;
+    right: -7px
+    z-index: 80;
+}
+
+#iconNeck:hover, #iconFront:hover, #iconMiddle:hover, #iconBack:hover{
+    cursor: pointer;
+}
+
+.editIcon{
+    float: right; background-color: #fff; border-radius: 20%; -moz-border-radius: 20%; -o-border-radius: 20%; -webkit-border-radius: 20%;
+}
+
+
+/* ==========================================================================
+        Gulf Stream Text Positions
+   ========================================================================== */
+
+/*gulf stream cooler css*/
+
+.gulfNeck{
+    /*moves the title and the icon*/
+    padding: 6px 0px 0px 8px; position: relative; top: 28px; width: 100%; height: 100%;
+}
+
+.gulfMiddle{
+    display: block; position: relative; width: 100%; height: 100%; top: -20px;
+}
+
+.gulfBack{
+    padding: 12px 0px 0px 8px; 
+    position: relative; 
+    top: 55px; 
+    width: 100%; 
+    height: 100%; 
+    left: -45px;
+}
+
+.gulfInsideMiddle{
+    position: relative; width: 100%; height: 100%; top: -130px;
+}
+
+.gulfInsideBack{
+    position: relative; width: 100%; height: 100%; top: -36px; left: -36px;
+}
+
+.gulfNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    height: 300px;
+    left: -25px; 
+    top: -30px;
+}
+
+.gulfFront{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 100%;
+}
+
+.gulfShoulderTextFrame{
+    position: relative; width: 100%; height: 100%; padding-left: 10px;
+}
+
+.gulfRotate{
+    -webkit-transform: rotate(-52deg);
+    -moz-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    -o-transform: rotate(-52deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+/*-webkit-transform: rotate(-52deg);-moz-transform: rotate(-52deg);-ms-transform: rotate(-52deg);-o-transform: rotate(-52deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+
+/* 200 belmont css*/
+/* ==========================================================================
+        Pimico Text Positions
+   ========================================================================== */
+.pimlicoRotate{
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+.pimlicoNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    height: 300px;
+    left: -52px; 
+    top: -15px;
+}
+
+.pimlicoInsideMiddle{
+    position: relative; width: 100%; height: 100%;
+}
+
+
+.pimlicoInsideBack{
+    position: relative; width: 100%; height: 100%; top: -80px; left: -20px;
+}
+
+/* ==========================================================================
+        200 Belmont Text Positions
+   ========================================================================== */
+
+
+.belmontTwoNeck{
+    /*moves the title and the icon*/
+    padding: 6px 0px 0px 8px; position: relative; top: 28px; width: 100%; height: 100%;
+}
+
+.belmontTwoMiddle{
+    display: block; position: relative; width: 100%; height: 100%; top: -20px;
+}
+
+.belmontTwoBack{
+    padding: 12px 0px 0px 8px; 
+    position: relative; 
+    top: 55px; 
+    width: 100%; 
+    height: 100%; 
+    left: -45px;
+}
+
+.belmontTwoInsideMiddle{
+    position: relative; width: 100%; height: 100%; top: -130px;
+}
+
+.belmontTwoInsideBack{
+    position: relative; width: 100%; height: 100%; top: -70px; left: -45px;
+}
+
+.belmontTwoNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    height: 300px;
+    left: -25px; 
+    top: -17px;
+}
+
+.belmontTwoFront{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 100%;
+}
+
+.belmontTwoShoulderTextFrame{
+    position: relative; width: 100%; height: 100%; padding-left: 25px;
+}
+
+.belmontTwoRotate{
+    -webkit-transform: rotate(-57deg);
+    -moz-transform: rotate(-57deg);
+    -ms-transform: rotate(-57deg);
+    -o-transform: rotate(-57deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+
+/* ==========================================================================
+        Hollywood Text Positions
+   ========================================================================== */
+
+
+.hollywoodNeck{
+    /*moves the title and the icon*/
+    padding: 6px 0px 0px 8px; position: relative; top: 28px; width: 100%; height: 100%;
+}
+
+.hollywoodMiddle{
+    display: block; position: relative; width: 100%;
+}
+
+.hollywoodBack{
+    padding: 12px 0px 0px 8px; 
+    position: relative; 
+    top: 90px; 
+    width: 100%; 
+    height: 100%; 
+    left: -10px;
+}
+
+.hollywoodInsideBack{
+    position: relative; width: 100%; height: 100%; top: -50px; left: -30px;
+}
+
+.hollywoodNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    left: 15px; 
+    top: -17px;
+}
+
+.hollywoodFront{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+    top: 110px;
+    width: 200px;
+    height: 100%;
+    left: 40px;
+    z-index: 100;
+}
+
+.hollywoodShoulderTextFrame{
+    position: relative; width: 100%; height: 100%; left: 50px; top: 20px;
+}
+
+.hollywoodRotate{
+    -webkit-transform: rotate(-57deg);
+    -moz-transform: rotate(-57deg);
+    -ms-transform: rotate(-57deg);
+    -o-transform: rotate(-57deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/* ==========================================================================
+        santa Text Positions
+   ========================================================================== */
+
+
+.santaNeck{
+    /*moves the title and the icon*/
+    padding: 6px 0px 0px 8px; position: relative; top: 28px; width: 100%; height: 100%;
+}
+
+.santaMiddle{
+    display: block; position: relative; width: 100%;
+}
+
+.santaBack{
+    padding: 12px 0px 0px 8px; 
+    position: relative; 
+    top: 90px; 
+    width: 100%; 
+    height: 100%; 
+    left: -10px;
+}
+
+.santaInsideMiddle{
+    position: relative; width: 100%; top: 60px; left: 20px;
+}
+
+.santaInsideBack{
+    position: relative; width: 100%; height: 100%; top: -50px; left: 10px;
+}
+
+.santaNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    left: 20px; 
+    top: 10px;
+}
+
+.santaFront{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+    top: 110px;
+    width: 200px;
+    height: 100%;
+    left: 40px;
+    z-index: 100;
+}
+
+.santaShoulderTextFrame{
+    position: relative; width: 100%; height: 100%; left: 60px; top: 20px;
+}
+
+.santaRotate{
+    -webkit-transform: rotate(-54deg);
+    -moz-transform: rotate(-54deg);
+    -ms-transform: rotate(-54deg);
+    -o-transform: rotate(-54deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.top{
+    top: 40px;
+}
+
+
+
+/* ==========================================================================
+        extended Text Positions
+   ========================================================================== */
+
+
+.extendedNeck{
+    /*moves the title and the icon*/
+    padding: 6px 0px 0px 8px; position: relative; top: 28px; width: 100%; height: 100%;
+}
+
+.extendedMiddle{
+    display: block; position: relative; width: 100%;
+}
+
+.extendedBack{
+    padding: 12px 0px 0px 8px; 
+    position: relative; 
+    top: 60px; 
+    width: 100%; 
+    height: 100%; 
+    left: -10px;
+}
+
+.extendedInsideMiddle{
+    position: relative; width: 100%; top: 40px;
+}
+
+.extendedInsideBack{
+    position: relative; width: 100%; height: 100%; top: -60px; left: -35px;
+}
+
+.extendedNeckTextFrame{
+    position: relative; 
+    width: 200px; 
+    left: 35px; 
+    top: 0px;
+}
+
+.extendedFront{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+    top: 110px;
+    width: 200px;
+    height: 100%;
+    left: 40px;
+    z-index: 100;
+}
+
+.extendedShoulderTextFrame{
+    position: relative; width: 100%; height: 100%; left: 65px; top: 5px;
+}
+
+.extendedRotate{
+    -webkit-transform: rotate(-54deg);
+    -moz-transform: rotate(-54deg);
+    -ms-transform: rotate(-54deg);
+    -o-transform: rotate(-54deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+.marginTop{
+    margin-top: 70px;
+}
+
+/* ==========================================================================
+   media rules
+   ========================================================================== */
+    @media screen and (min-width: 320px) and (max-width: 730px ){
+        header{
+            overflow: hidden;
+        }
+    }
+
+
+    @media screen and (min-width: 764px) and (max-width: 960px){
+
+        .marginTop{
+            margin-top: 70px;
+        }
+
+        .santaNeckTextFrame{
+            left: 8px;
+            top: -13%;
+        }
+
+        .santaShoulderTextFrame{
+            top: 38px;
+            left: 48px;
+        }
+
+        .santaFront{
+            top: 90px;
+            width: 140px;
+            left: 40px;
+        }
+
+        .santaBack{
+            top: 45px; 
+        }
+
+        .santaInsideBack{
+            position: relative; width: 100%; height: 100%;
+        }
+
+        .belmontTwoNeckTextFrame{
+            top: -30px;
+            left: -26px;
+        }
+
+        .belmontTwoInsideMiddle{
+            top: -100px;
+        }
+
+        .belmontTwoInsideBack{
+            top: -19px;
+        }
+
+        .belmontTwoBack{
+            top: 42px;
+        }
+
+        .belmontTwoShoulderTextFrame{
+            top: 13px;
+            left: -7px;
+        }
+
+        .belmontTwoFront{
+            top: 62px;
+            width: 140px;
+            left: 0px;
+        }
+
+        .hollywoodNeckTextFrame{
+            left: -5px;
+            top: -24px;
+        }
+
+        .hollywoodShoulderTextFrame{
+            top: 20px;
+            left: 37px;
+        }
+
+        .hollywoodFront{
+            top: 62px;
+            width: 140px;
+            left: 23px;
+        }
+
+        .extendedNeckTextFrame{
+            width: 146px;
+        }
+
+        .extendedBack{
+            top: 40px;
+        }
+
+        .extendedInsideBack{
+            top: -10px;
+            left: -18px;
+        }
+
+        .extendedFront{
+            top: 62px;
+            width: 140px;
+            left: 23px;
+        }
+    }
+
+
+/*ipad portrait rules*/
+
+    @media screen and (min-width: 320px) and (max-width: 960px){
+
+        .marginTop{
+            margin-top: 70px;
+        }
+
+        .button_holder{
+            height: 24px;
+        }
+        
+        .container-fluid{
+            padding: 0;
+        }
+
+        #sidebar{
+            width: 25%;
+            padding: 0px 20px 0px 0px;
+        }
+
+        html, body{
+            width: 822px;
+        }
+
+        #maincontent{
+            height: 440px;
+        }
+
+        .gulfNeckTextFrame{
+            left: -48px;
+            top: -16%;
+        }
+
+        .gulfFront{
+            padding: 8px 0px 0px 8px;
+            position: relative;
+            top: 80px;
+            width: 200px;
+            height: 100%;
+        }
+
+        #printButton{
+            display: none;
+        }
+
+    }
+
+    /*//iPad Landscape*/
+
+@media screen and (min-width: 961px) and (max-width: 1025px){
+
+        .container-fluid{
+            padding: 0;
+        }
+
+        #sidebar{
+            width: 25%;
+            padding: 0px 20px 0px 0px;
+        }
+
+        html, body{
+            /*width: 1024px;*/
+        }
+
+        #maincontent{
+            height: 610px;
+        }
+
+        #printButton{
+            display: none;
+        }
+
+}
+
+
+
+
+/* ==========================================================================
+   Upload
+   ========================================================================== */
+.upload_upload{
+
+    border-bottom:2px solid #ccc;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+.openDialog{
+    width: 100px; padding: 3px; color: white; background-color: green; margin: 20px 0;
+}
+
+.areaButton{
+    width: 100px; padding: 3px; color: white; margin: 20px 0; text-align: center;
+}
+
+.upload_upload span{
+
+    float: right;
+
+}
+
+
+.error_Area{
+
+    color: red;
+
+}
+
+.centerImage{
+    width: 128px; border: 1px solid black; display: block; height: 87px;
+}
+
+#centerImage:hover, #upImageTwo:hover{
+    cursor: move;
+}
+
+
+
+
+
+/* ==========================================================================
+   print rules
+   ========================================================================== */
+
+
+   @media print{
+
+        header, a, input, hr, h1.title, #noprint, br, #noheadprint{
+            display: none;
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            color: #B8A14F !important;
+        }
+
+        h1{
+            /*30px*/
+            font-size: 22.5pt !important;
+            margin-top: 5px !important;
+        }
+
+        h2{
+            /*25px*/
+            font-size: 17.25pt !important;
+        }
+        h3{
+            /*20px*/
+            font-size: 15pt !important;
+        }
+        p{
+            /*16px*/
+            font-size: 12pt !important;
+        }
+
+        table{
+            margin-bottom: 5px !important;
+        }
+
+   }
+
+
+
+/* ==========================================================================
+   from 01/02/2016 - ORDER SUMMARY 
+   ========================================================================== */
+
+
+.plus{
+    width: 50px; height: 50px; line-height: 1.5; text-align: center; font-weight: bold; border: 1px solid black; font-size: 2em; float: right; 
+}
+
+.minus{
+    width: 50px; height: 50px; line-height: 1.5; text-align: center; font-weight: bold; border: 1px solid black; font-size: 2em; float: right; 
+}
+
+.plus:hover, .minus:hover{
+    cursor: pointer;
+}
+
+.border_bottom{
+    border-bottom: 1px solid #B8A14F;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.error{
+    color: red;
+}
+
+
+
+
+[title="Customize Now"], [title="link"]{
+            width: 200px;
+            overflow: auto;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -o-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-animation-name: phaseInOut;
+            animation-name: phaseInOut;
+            animation-duration: 4s;
+            /*animation-delay: 2s;*/
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: #B8A14F;
+        }
+
+        @-webkit-keyframes phaseInOut{
+            0% {background-color: #B8A14F;}
+            25% {background-color: #EEE8AA;}
+            50% {background-color: #F0E68C;}
+            75% {background-color:  #DAA520;}
+            100% {background-color: #FAFAD2;}
+        }
+
+        @keyframes phaseInOut{
+            0% {background-color: #B8A14F;}
+            25% {background-color: #EEE8AA; }
+            50% {background-color: #F0E68C; }
+            75% {background-color:  #DAA520; }
+            100% {background-color: #B8A14F;}
+        }
+
+
+/* ==========================================================================
+   from 04/02/2016 - TEXT PAGE
+   ========================================================================== */
+
+.gapOne{
+    width: 100%; display: block; height: 40px; position: relative;
+}
+
+.gapTwo{
+    width: 100%; display: block; height: 8px; position: relative;
+}
+
+.third{
+    width: 60px; height: 50px; display: inline-block; overflow: auto; float: left;
+}
+
+/*.textBox{
+    width: 135px; padding-left: 30px; height: 100%; text-align: left; color: black; font-size: 1.2em; font-weight: 600; line-height: 1;
+}
+*/
+
+.block{
+    position: relative; float: left; width: 180px; top: -58px;
+}
+
+.number{
+    padding-top: 2px; position: relative; border: 2px solid #0D416E; border-radius: 100%; line-height: 1.7; width: 45px; height: 45px; text-align: center; color: #fff; background: #0D416E; font-weight: 600; font-size: 1.6em;
+}
+
+.bread{
+    width: 95%; height: 7px; background: #eee; margin: 20px 0px;
+}
+
+.bread li{
+    display: inline;
+    float: left;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+
+
+.breadTwo{
+    width: 95%; height: 7px; background: #eee; margin: 20px 0px;
+}
+
+.breadTwo li{
+    display: inline;
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+
+.grey{
+    background-color: #D0D0D0;
+    border-color: #D0D0D0;
+    color: #fff;
+}
+
+.greyText{
+    color: #808080;
+    font-weight: normal;
+}
+
+.lastItem{
+    float: right; position: relative; top: -20px;
+}
+
+.goldBack{
+    padding-top: 2px; position: relative; border-radius: 100%; line-height: 1.7; width: 45px; height: 45px; text-align: center; color: #fff; font-weight: bold; font-size: 1.6em;
+    background-color: #B8A14F;
+    border: 1px solid #B8A14F;
+}
+
+.innerSideBar{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid yellow;*/
+}
+
+.lastItem .arrowLetters, .lastItem.arrowContainer{
+    display: inline;
+    float: left;
+}
+
+.hover{
+    background-color: #0D416E;
+    cursor: pointer;
+    border-color: #0D416E;
+}
+
+.hoverText{
+    color: #0D416E !important;
+    cursor: pointer;
+}
+
+#goldText{
+    width: 145px; padding-left: 30px; height: 100%; text-align: center; font-size: 1.2em; 
+    float: right; position: relative; left: 40px; color: #B8A14F; font-weight: 800;
+}
+
+.gapOne:hover, .gapTwo:hover{
+    cursor: pointer;
+}
+
+
+.boxContainer{
+    background-color: #0D416E;
+    color: #fff;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: uppercase;
+    width: 100%;
+/*    height: 50px;*/
+    padding: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+
+.boxContainerEmpty{
+    color: #0D416E;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.boxContainerGold{
+    background-color: #B8A14F;
+}
+
+.boxHeadingText{
+    width: 80%;
+}
+
+.boxHeadingIcon{
+    width: 20%;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    top: -16px;
+    height: 30px;
+}
+
+.boxHeadingText, .boxHeadingIcon{
+    display: inline;
+    float: left;
+}
+
+.boxHeadingIcon:before{
+    content: "+";
+}
+
+.boxHeadingIconMinus:before{
+    content: "-";
+}
+
+.boxContent{
+    clear: both;
+    border: 1px solid lightgrey;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow: auto;
+}
+
+.boxContentTwo{
+    clear: both;
+    border: 1px solid lightgrey;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.holderTwo {
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    border: 1px solid #eee;
+}
+
+
+.bodyColorList{
+    list-style-type: none;
+    margin: 0px 5px 5px 10px;
+}
+
+.bodyColorList li{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    float: left;
+    margin: 2px;
+    display: inline;
+}
+
+.bodyColorList li:hover{
+    cursor: pointer;
+}
+
+.bodyColorListwrapper{
+    position: relative; 
+    display: block; 
+    overflow: auto;
+}
+
+.boxContainer:active{
+    background-color: #B8A14F;
+}
+
+.boxContainer:hover{
+    background-color: #B8A14F;
+}
+
+.boxContainer:visited{
+    background-color: #0D416E;
+}
+
+
+
+.newSubFontFamily{
+    text-transform: uppercase; 
+    float: left; 
+    display: block; 
+    background-color: #eee;
+    border-radius: 5px; 
+    width: 100%;
+    color: #0D416E;
+    font-weight: normal;
+}
+
+.sub-fontOpt{
+    border: 1px solid lightgrey; 
+    margin-bottom: 10px; 
+    width: 100%; 
+    color: black;
+}
+
+
+#maincontent p{
+   /* line-height: 2 !important;*/
+}
+
+/*04/02/2016*/
+
+
+#bodyColor:hover, #bindingColor:hover, #pipingColor:hover, #textEmbroidery:hover, #specialRequests:hover{
+    cursor: pointer;
+}
+
+#dropOne:hover, #dropTwo:hover, #dropThree:hover, #dropFour:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.dropOne{
+    background-color: #eee;
+}
+
+
+.fifty{
+    width: 50%;
+    display: inline;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.fifty select{
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.rowOne{
+    width: 100%;
+    border-top: 1px solid #B8A14F;
+    position: relative;
+    overflow: auto;
+    padding: 10px;
+}
+
+input[type="submit"].orderButton{
+    width: 130px; padding: 5px; color: #fff; background-color: #B8A14F; border-radius: 5px; text-align: center; line-height: 1.45; font-size: 1em;
+}
+
+input[type="submit"].orderButton:hover{
+    background: lightgrey; color: black; cursor: pointer;
+}
+
+
+#plus{
+    margin-left: 3px; width: 50px; height: 50px; position: relative; display: inline; float: left; border: 1px solid #B8A14F; line-height: 1.7; font-weight: bold; color: #B8A14F; font-size: 2em; text-align: center;
+}
+
+#minus{
+    width: 50px; height: 50px; position: relative; display: inline; float: left; border: 1px solid #B8A14F; line-height: 1.65; font-weight: bold; color: #B8A14F; font-size: 2em; text-align: center;
+}
+
+#plus:hover, #minus:hover{
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.gulfAdj{
+    position: relative;
+    top: -50px;
+}
+
+.santaAdj{
+    top: -80px;
+}
+
+
+#window img{
+    top: -200px;
+    left: -200px;
+}
+
+.winImg{
+    width: 1200px !important;
+}
+
+#window{
+    overflow: scroll;
+    width: 200px; height: 200px; z-index: 100; position: relative; top: 64%; left: 0;
+    /*border: 3px solid #B8A14F;*/
+    /*border-radius: 100%;*/
+}
+
+#reflectMainImage{
+    z-index: 20;
+}
+#reflectBaseImage{
+    z-index: 40;
+}
+#reflectPipeImage{
+    z-index: 80;
+}
+#reflectBindImage{
+    z-index: 60;
+}
+
+
+#showDetails, #hideDetails{
+    margin: 0 auto; width: 180px; padding: 5px; color: #fff; font-weight: bold; font-size: 1em; overflow: auto; display: block; text-align: center; background: #B8A14F;
+}
+
+
+#showDetails:hover, #hideDetails:hover{
+    cursor: pointer;
+    background: lightgrey;
+    color: black;
+}
+
+/* ==========================================================================
+   from 13/02/2016
+   ========================================================================== */
+
+.numberTwo {
+    padding-top: 2px;
+    position: relative;
+    border: 2px solid #0D416E;
+    border-radius: 100%;
+    line-height: 1.7;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    background: #0D416E;
+    font-weight: 600;
+    font-size: 1.6em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.numberTwo img{
+    width: 30px; height: auto; display: block; margin: 2px auto 0px auto;
+}
+
+/* ==========================================================================
+   from 18/02/2016
+   ========================================================================== */
+
+ /*go back*/
+
+.goBack{
+    width: 100px; padding: 5px; background-color: #0D416E; color: #fff; overflow: auto; line-height: 1.7; font-size: 1.2em;
+}
+
+.goBack:hover{
+    cursor: pointer;
+    background-color: #B8A14F;
+    color: black;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   UPLOAD IMAGE
+   ========================================================================== */
+
+
+#centerImage{
+    z-index: 400;
+}
+
+
+/* ==========================================================================
+   SCALE ONLY CSS
+   ========================================================================== */
+
+
+/*.ui-resizable-handle-se, .ui-resizable-handle-s, .ui-resizable-handle-e, .ui-resizable-handle-w, .ui-resizable-handle-sw, .ui-resizable-handle-nw, .ui-resizable-handle-ne{width:10px;height:10px;border:4px solid blue;border-radius:10px;}*/
+
+.ui-icon{
+/*    background-color: #B8A14F;*/
+    width: 32px;
+    height: 32px;
+}
+/*    div.box{
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+
+    }*/
+
+    .outter{
+        width: 200px; background: transparent; z-index: 300;
+    }
+
+    .overlay{
+        clear: both; z-index: 40;
+    }
+    .inner{
+        width: 10px; height: 10px; background: red; position: relative; margin: 95px; z-index: 60;
+    }
+
+    #innerFrame{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        /*overflow: hidden;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-image: url("../img/image.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 100%;*/
+    }
+
+/*    #innerFrame img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    #innerFrame canvas{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        border: 1px solid red;
+    }*/
+
+/*    .textBoxTwo{
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        color: #0D416E;
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: inherit;
+        background: transparent;
+    }*/
+
+    .buttLeft, .buttRight, .done{
+        display: inline;
+    }
+
+    .done{
+        width: 60%;
+        border: 1px solid black;
+        display: inline-block;
+        background: blue;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+
+    .done:hover{
+        cursor: pointer;
+        background: white;
+        color: black;
+    }
+
+    .buttLeft, .buttRight{
+        width: 10%;
+        background: red;
+        border: 1px solid blue;
+        padding: 3px;
+        color: white;
+    }
+
+    .buttLeft{
+        float: left;
+        margin-left: 10%;
+    }
+
+    .buttRight{
+        float: right;
+        margin-right: 10%;
+    }
+
+    .buttLeftAction{
+        visibility: visible;
+        border: 1px solid blue;
+        width: 10px;
+        height: 10px;
+        margin: 0 auto;
+        position: relative;
+        bottom: -10px;
+        left: 10px;
+        display: block;
+        background: white;
+    }
+
+    .buttRightAction{
+        visibility: visible;
+        border: 1px solid blue;
+        width: 10px;
+        height: 10px;
+        margin: 0 auto;
+        position: relative;
+        bottom: -10px;
+        right: 10px;
+        display: block;
+        background: white;
+    }
+
+    .rotateOpp{
+        float: left;
+        background: red;
+        border: 1px solid blue;
+        padding: 3px;
+        color: white;
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-zoom-grab;
+    }
+
+    #rotate, .rotate{
+        float: right;
+        background: red;
+        border: 1px solid blue;
+        padding: 3px;
+        color: white;
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-zoom-grab;
+    }
+
+    #rotate:hover, .rotate:hover{
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+
+    #rotate:active, .rotate:active{
+        cursor: grabbing;
+        cursor: -webkit-zoom-grabbing;
+    }
+
+    #move, .move{
+        background: red;
+        color: white;
+        border: 1px solid blue;
+        padding: 3px;
+        text-align: center;
+        display: block;
+
+    }
+
+    #move:hover, .move:hover{
+        cursor: move;
+    }
+
+    .someClass{
+        color: red;
+    }
+
+    .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+        opacity: 1.0 !important;
+    }
+
+.boxOrig{
+    width: auto;
+    height: auto;
+/*  border: 1px solid red;*/
+    font-size: 48px;
+    font-family: 'Arial';
+    color: #000000;
+    text-align: center;
+    line-height: 48px;
+}
+
+
+.embroideryRing{
+    padding: 14px 14px 14px 12px;
+    width: 822px;
+    height: 629px;
+    background-position: top left;
+    background-size: 100% 100%;
+    background-image: url(../img/template.png);
+    background-repeat: no-repeat;
+}
+
+#innerRing{
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    height: 100%;
+}
+
+.menuBar{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-bottom: 10px double black;
+    border-top: 5px solid black;
+    overflow: auto;
+}
+
+.half{
+    width: 50%;
+    height: 100%;
+    display: inline;
+    float: left;
+}
+
+
+.wrap{
+    background-color: #0D416E;
+    color: white;
+}
+
+.wrap:hover, #hipWrap:hover{
+    cursor: move;
+}
+
+.newDone{
+    background-color: #B8A14F;
+    color: white;
+}
+
+.newDone:hover{
+    cursor: pointer;
+}
+
+#previewDesign{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 500;
+}
+
+.insidePreview{
+    background: white;
+    text-align: left;
+    padding: 20px;
+}
+
+#deleteImage{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 0;
+    font-size: 24px;
+    color: #B8A14F;
+    font-weight: bold;
+    background: #0D416E;
+    font-family: 'Arial';
+    border-radius: 100%;#
+    margin: 0;
+    left: -20px;
+    top: -15px;
+}
+
+#deleteImage:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+#upImage{
+    width: 200px;
+    height: auto;
+}
+
+
+.uploader{
+
+    background: #fefefe;
+
+    border: 2px solid #eee;
+
+    padding: 20px;
+
+}
+
+
+
+.upload_head{
+
+    padding: 0 0 20px 0;
+
+    margin: 0;
+
+    border-bottom: 2px solid #eee;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.droppable_area{
+
+    height: 200px;
+
+    border: 2px dashed #ccc;
+
+    line-height: 200px;
+
+    color: #ccc;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.droppable_area.drop{
+
+    border-color: #222;
+
+    color: #222;
+
+}
+
+
+
+.upload_body{
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.progress_bar{
+
+    width: 100%;
+
+    background: #eee;
+
+    padding: 3px;
+
+    border-radius: 3px;
+
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+
+    box-sizing: border-box;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.fill{
+
+    height: 30px;
+
+    display: block;
+
+    background: cornflowerblue;
+
+    width: 0;
+
+    border-radius: 3px;
+
+    -webkit-transition:width 0.8s ease;
+
+    transition:width 0.8s ease;
+
+}
+
+
+
+.fill_text{
+
+    color: #fff;
+
+    line-height: 30px;
+
+    margin-left: 5px;
+
+}
+
+
+
+.upload_upload{
+
+    border-bottom:2px solid #ccc;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+.upload_upload span{
+
+    float: right;
+
+}
+
+
+
+.error_Area{
+
+    color: red;
+
+}
+
+
+.textBox{
+    width: 135px; padding-left: 30px; height: 100%; text-align: center; color: black; font-size: 1.2em; font-weight: 600; line-height: 1;
+}
+
+.greyText {
+    color: #808080;
+    font-weight: normal;
+}
+
+.showMessage{
+    padding: 20px;
+    border: 1px solid #B8A14F;
+}
+
+#showMessageAgain{
+    margin-top: 20px;
+}
+
+#hipWrap{
+    width: 0;
+    height: 0;
+}
+
+
+
+/*embroidery page 24/03/2016*/
+
+
+.arialBlack{
+    font-family: 'Arial Black', 'Arial-BoldMT';
+}
+
+
+.arialNarrow{
+    font-family: 'Arial Narrow', 'ArialMT';
+}
+
+.centuryGothic{
+    font-family:  'Century Gothic', 'CenturyGothic','AppleGothic', 'sans-serif';
+}
+
+.georgiaTimes{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+.lucindaConsole{
+    font-family: 'Lucida Console', 'Lucida Sans Typewriter', 'monaco', 'Bitstream Vera Sans Mono', 'monospace';
+}
+
+.timesNew{
+    font-family: 'TimesNewRoman', 'Times New Roman', 'Times', 'Baskerville', 'Georgia', 'serif';
+}
+
+.brushScript{
+    font-family: 'Brush Script MT', 'Brush Script MT Italic', cursive;
+}
+
+
+
+.divForCanvasFiftyHundred{
+    position: relative;
+    width: 50%; 
+    height: 100%;
+    display: inline;
+    float: left;
+    color: white;
+}
+
+#shoulderRegionImageHolder{
+    z-index: 120;
+}
+
+#neckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#neckRegionImage img{
+    margin-top: 56px;
+}
+
+#neckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+#neckRegionImageHolder{
+/*    z-index: 100;
+    position: absolute; 
+    left: 70px; 
+    top: 90px; 
+    vertical-align: bottom;
+    display: table-cell; 
+    width: 97px; height: 162px;*/
+/*    border: 1px solid red;*/
+}
+
+
+/*// .heading for the dropdown under text embroidery*/
+
+.heading{
+    background-color: #0D416E;
+    color: white;
+    margin: 5px 0px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.heading:hover{
+    cursor: pointer;
+    background-color: #B8A14F;
+}
+
+
+/*// .output on the embroidery page is to set a default position for the container element on click*/
+
+.outputContainer{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#upImage, .upImage{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ui-resizable-e, .ui-resizable-s{
+    display: none !important;
+}
+
+
+canvas, img{
+    -ms-interpolation-mode: bicubic;
+    image-rendering: crisp-edges;
+}
+
+/*#neckRegionImage img{
+    -webkit-transform: rotate(-52deg);
+    -moz-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    -o-transform: rotate(-52deg);
+}*/
+/*// hollywood NEW*/
+.addThisToHollywoodNeck{
+    -webkit-transform: rotate(-52deg);
+    -moz-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    -o-transform: rotate(-52deg);
+    margin-top: -20px;
+}
+
+.neckRegionImageHolder{
+    z-index: 100;
+    position: absolute; 
+    left: 70px; 
+    top: 90px; 
+    vertical-align: bottom;
+    display: table-cell; 
+    width: 97px; height: 162px;
+/*    border: 1px solid red;*/
+}
+
+/*// pimlico New*/
+.pimlicoShoulderRegionImageHolder{
+    position: relative; left: 0px; top: -45px; width: 97px; height: 100px;
+}
+
+.pimlicoCenterRegionImageHolder{
+    position: relative; left: 25px; top: 155px; width: 97px; height: 73px;
+}
+
+.pimlicoHipRegionImageHolder{
+    position: relative; left: 40px; top: 190px; width: 97px; height: 195px;
+}
+
+#pimlicoNeckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#pimlicoNeckRegionImage img{
+    margin-top: 20px;
+}
+
+#pimlicoNeckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+.pimlicoRotate{
+    -webkit-transform: rotate(-58deg);
+    -moz-transform: rotate(-58deg);
+    -ms-transform: rotate(-58deg);
+    -o-transform: rotate(-58deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.pimlicoNeckRegionImageHolder{
+     z-index: 100;
+    position: absolute; 
+    left: 30px; 
+    top: 137px; 
+    vertical-align: bottom;
+    display: table-cell;    
+}
+
+/*// note: gulf stream scrim cooler is good to go*/
+
+/*// gulf classes created below*/
+
+.gulfShoulderRegionImageHolder{
+    position: relative; left: 0px; top: -45px; width: 97px; height: 100px;
+}
+
+.gulfCenterRegionImageHolder{
+    position: relative; left: 25px; top: 200px; width: 97px; height: 73px;
+}
+
+.gulfHipRegionImageHolder{
+    position: relative; left: 40px; top: 190px; width: 97px; height: 195px;
+}
+
+#gulfNeckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#gulfNeckRegionImage img{
+    margin-top: 20px;
+}
+
+#gulfNeckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+.gulfNeckRegionImageHolder{
+     z-index: 100;
+    position: absolute;
+    left: 30px; 
+    top: 137px;
+    vertical-align: bottom;
+    display: table-cell;    
+}
+
+
+/*// Extended neck lined rain sheet*/
+.extendedShoulderRegionImageHolder{
+    position: relative; left: 60px; top: -35px; width: 97px; height: 100px;
+}
+
+.extendedCenterRegionImageHolder{
+    position: relative; left: 50px; top: 205px; width: 97px; height: 73px;
+}
+
+.extendedHipRegionImageHolder{
+    position: relative; left: 40px; top: 190px; width: 97px; height: 195px;
+}
+
+#extendedNeckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#extendedNeckRegionImage img{
+    margin-top: 20px;
+}
+
+#extendedNeckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+.extendedNeckRegionImageHolder{
+     z-index: 100;
+    position: absolute; 
+    left: 85px; 
+    top: 168px; 
+    vertical-align: bottom;
+    display: table-cell;    
+}
+
+
+/*// Santa Anita neck lined rain sheet*/
+.santaShoulderRegionImageHolder{
+    position: relative; left: 60px; top: -35px; width: 97px; height: 100px;
+}
+
+.santaCenterRegionImageHolder{
+    position: relative; left: 50px; top: 205px; width: 97px; height: 73px;
+}
+
+.santaHipRegionImageHolder{
+    position: relative; left: 40px; top: 190px; width: 97px; height: 195px;
+}
+
+#santaNeckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#santaNeckRegionImage img{
+    margin-top: 20px;
+}
+
+#santaNeckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+.santaNeckRegionImageHolder{
+     z-index: 100;
+    position: absolute; 
+    left: 67px; 
+    top: 176px; 
+    vertical-align: bottom;
+    display: table-cell;    
+}
+
+
+/*// belmont Anita neck lined rain sheet*/
+.belmontShoulderRegionImageHolder{
+    position: relative; left: 28px; top: -45px; width: 97px; height: 100px;
+}
+
+.belmontCenterRegionImageHolder{
+    position: relative; left: 10px; top: 185px; width: 97px; height: 73px;
+}
+
+.belmontHipRegionImageHolder{
+    position: relative; left: 16px; top: 190px; width: 97px; height: 195px;
+}
+
+#belmontNeckRegionImage, #centerRegionImage, #centerRegionImage img, #hipRegionImage, #hipRegionImage img, #shoulderRegionImage, #shoulderRegionImage img{
+    width: 97px; height: 76px;
+}
+
+#belmontNeckRegionImage img{
+    margin-top: 20px;
+}
+
+#belmontNeckRegionImage:hover, #hipRegionImage:hover, #shoulderRegionImage:hover{
+    cursor: move;
+}
+
+.belmontNeckRegionImageHolder{
+     z-index: 100;
+    position: absolute; 
+    left: 34px; 
+    top: 138px; 
+    vertical-align: bottom;
+    display: table-cell;    
+}
+
+
+
+/*// 28/04/16 handle bar for the text row */
+
+.bigBlueBoxTwo{width: 10px; height: 20px; position: relative; left: -10px; top: 0px; background-color: #0D416E; color: #0D416E; font-weight: bold; z-index: 40;}
+.bigBlueBoxTwo p{position: relative; top: -20px; left: -30px; z-index: 60; font-size: 50px; line-height: normal;}
+
+.bigGoldBoxTwo{width: 135px; height: 20px; position: relative; left: -37px; top: 0px; /*background-color: #B8A14F;*/ font-weight: bold; z-index: 40;}
+.bigGoldBoxTwo p{position: relative; z-index: 60; font-size: 16px; line-height: normal; margin: 0; font-weight: normal; color: #fff; top: -16px;}
+.span{position: relative; top: 4px; font-size: 30px; padding-right: 20px; color: #B8A14F; font-weight: bold;}
+
+#maincontent{padding-left: 10px;}
+
+
+
+
+/*// 29/04/16 New Embroidery Page - New Embroidery (template) New Embroidery Wordpress*/
+.containerSticky{max-width: 1200px; min-width: 440px; margin: 0px auto;padding: 0px; border: 1px solid black; z-index: 100;}
+.sidebarSticky,.maincontentSticky{display: inline; float: left;}
+.sidebarSticky{z-index: 300; width: 40%; border-right: 6px solid black; padding: 10px 0px;}
+.maincontentSticky{z-index: 250; width: 60%;}
+.button_icon{z-index: 400; width: 400px; height: 80px; padding: 0px 0px 0px 10px; font-family: Arial; color: white; height: auto;}
+.tag{width: 200px; padding: 10px; font-size: 16px; font-weight: bold; color: #fff; margin-bottom: 20px; text-align: right;}
+.closeMenu{z-index: 600; float: right; color: red; font-size: 32px; font-weight: bold; text-align: center; background-color: white; border:6px solid white; border-radius: 100%; width: 45px; height: 45px; padding: 0px 0px 0px 0px; clear: both;}
+.wrapCloseMenu{width: 100%; z-index: 500; min-height: 20px; display: block; margin-bottom: 16px;}
+.closeMenu:hover{background-color: red; color: blue; cursor: pointer; border: 6px solid red;}
+.eight{width: 12.5%; display: inline; float: left; height: 200px; border: 3px solid transparent /*red*/;}
+.fiftyHigh{height: 50%; width: 100%; display: block; border: 1px solid black;}
+.menuButton{width: 100%; height: 100%; padding: 10px 0px; font-size: 16px; font-weight: bold; color: #fff; margin-bottom: 20px; text-align: right;}
+.background{background-image: url(img/burger.png); background-repeat: no-repeat; background-position: top left; background-size: 50%; min-width: 40px; width: 200px; margin-left: 9px;}
+.line{margin: 13px auto; height: 8px; width: 80%; display: block;}
+.red{background-color: red;}
+.black{background-color: black;}
+.white{background-color: white;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+.iconTt{font-family: Times; font-size: 90px; margin: 0; font-weight: bold;position: relative; top: -16px;}

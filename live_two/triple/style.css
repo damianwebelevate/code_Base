@@ -1,0 +1,266 @@
+/*
+ Theme Name:   triple
+ Theme URI:    http://example.com/triple
+ Description:  triple
+ Author:       Damian O'Rourke
+ Author URI:   http://damianorourke.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         ecommerce-custom
+ Text Domain:  Triple Crown Custom
+*/
+/*  This file is part of Triple Crown Custom - TCC
+
+    TCC is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    TCC is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with TCC.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+a{
+	color: #0D416E;
+}
+
+article{
+	margin-bottom: 30px;
+}
+
+::selection {
+    background: #B8A14F;
+    color: #0D416E;
+    text-shadow: none;
+}
+
+
+a:active,
+a:hover {
+	color: #0D416E;
+}
+
+html{
+	margin-top: 0 !important;
+}
+
+.twentyfourteen .tfwc{
+	max-width: 100%;
+}
+
+.site-main{
+	margin-top: 0 !important;
+}
+
+.thumbnail{
+	border: none !important;
+}
+
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: #B8A14F;
+}
+
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	color: #DCC77E;
+	font-weight: 900;
+	font-family: 'Playfair Display SC' !important;
+}
+
+.primary-navigation li {
+	font-family: 'Playfair Display SC' !important;
+}
+
+.menu-toggle:active,
+.menu-toggle:focus,
+.menu-toggle:hover {
+	background-color: #DCC77E;
+}
+
+
+.primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: #B8A14F;
+		color: #fff;
+	}
+
+.primary-navigation ul ul a:hover,
+.primary-navigation ul ul li.focus > a {
+	background-color: #DCC77E;
+}
+
+.primary-navigation ul ul {
+	background-color: #B8A14F;
+	font-family: 'Playfair Display SC' !important;
+}
+
+.primary-navigation li:first-child {
+	margin: 0 !important;
+}
+
+.content-area, .content-sidebar{
+	padding-top: 20px !important;
+}
+
+/*ul, ol{
+	margin: 0 !important;
+}*/
+
+.post-thumbnail{
+	top: -55px;
+}
+
+.wrap h2, .wrap h3, .wrap h4, .wrap h5, .wrap h6, .wrap p, .wrap li, .wrap a{
+	color: inherit;
+}
+
+.entry-content p{
+	font-size: 16px !important;
+	line-height: 1.8;
+}
+
+
+.entry-author-link { display: none; }
+.entry-permalink { display: none; }
+.entry-date { display: none; }
+.entry-meta { display: none; }
+
+.nav-links{
+	color: #B8A14F;
+}
+
+.nav-links a, span.meta-nav a, .meta-nav{
+	color: #B8A14F !important;
+	font-size: 24px;
+	font-family: 'Open Sans', 'Times';
+	font-weight: normal;
+}
+
+.nav-links a:hover, span.meta-nav a:hover{
+	color: #0D416E !important;
+}
+
+.attachment{
+	margin: 0 !important;
+}
+
+th, td{
+	font-family: 'Open Sans', 'Times';
+}
+
+h1{
+	font-size: 33px;
+}
+
+button.menu-toggle{
+	top: 0;
+	left: 20px;
+	float: left;
+	background: #0D416E;
+}
+
+button, .button, input[type="button"], input[type="reset"], input[type="submit"],button:hover, button:focus, .button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background-color: #B8A14F;
+}
+
+@media screen and (min-width: 1200px){
+	.primary-navigation li:first-child{
+		margin-left: 70px;
+	}
+}
+
+
+
+/* ==========================================================================
+   Widget CSS
+   ========================================================================== */
+
+
+.dm_widget{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 30px !important;
+/*    width: 25%;*/
+/*    background-color: #0D416E;*/
+    margin-left: 20px;
+}
+
+.dm_widget input{
+	background-color: #fff !important;
+	color: black !important;
+	float: right;
+	display: block;
+}
+
+.dm_widget input[type='submit']{
+	background-color: #B8A14F !important;
+	color: #fff !important;
+	float: right;
+	display: block;
+	padding: 10px;
+	margin: 10px 0px 0px 20px;
+}
+
+.dm_widget label{
+	/*color: #0D416E;*/
+	color: black;	
+	float: right;
+}
+
+
+.widget a {
+	color: #000;
+}
+
+.widget a:hover {
+	color: #0D416E;
+}
+
+.footer-sidebar .widget {
+	padding: 0;
+}
+
+.widget h2{
+	/*color: #0D416E;*/
+	color: black;
+	float: right;
+}
+
+ul.footerMenu{
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+ul.footerMenu li:first-child{
+	margin-top: 30px;
+}
+
+ul.footerMenu li{
+	margin: 10px 0;
+}
+
+ul.footerMenu li:hover{
+	background-color: lightgrey;
+}
+
+/*.site, .site-header, .grid, .masthead-fixed{
+	max-width: 1260px;
+	width: 100%;
+}*/
+

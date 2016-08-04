@@ -1,0 +1,428 @@
+{	
+	"Gulfstream net cooler":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/horse/gulfstream_horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/Gulf/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	},
+	"Santa Anita Stable Sheet":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/horse/horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/santa/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	},
+	"200g Belmont Stable Rug":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/horse/horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/belmont200/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	},
+	"Extended Neck Lined Rain Sheet":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/horse/horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/extended/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	},
+	"Pimlico Wool Dress Sheet":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/horse/horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/pimlico/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	},
+	"Hollywood cotton cooler":{
+		"lhs": {
+			"horse": {"main":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/horse/horse.png"},
+			"bodycolors": {
+				"black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/black.png",
+				"brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/brown.png",
+				"burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/burgundy.png",
+				"navy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/navy.png",
+				"red": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/red.png",
+				"royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/royalblue.png",
+				"huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/huntergreen.png",
+				"silver_grey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/base/silver_grey.png"
+			},
+			"binding":{
+				"bind_turquoise": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_turquoise.png",
+				"bind_black": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_black.png",
+				"bind_brown": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_brown.png",
+				"bind_burgundy": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_burgundy.png",
+				"bind_cream": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_cream.png",
+				"bind_gold": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_gold.png",
+				"bind_hotpink": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_hotpink.png",
+				"bind_huntergreen": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_huntergreen.png",
+				"bind_lightblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_lightblue.png",
+				"bind_navy":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_navy.png",
+				"bind_orange": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_orange.png",
+				"bind_purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_purple.png",
+				"bind_red":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_red.png",
+				"bind_royalblue": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_royalblue.png",
+				"bind_silvergrey": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_silvergrey.png",
+				"bind_tan":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_tan.png",
+				"bind_white":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_white.png",
+				"bind_yellow":"https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/binding/bind_yellow.png"
+			},
+			"piping":{
+				"purple": "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_purple.png",
+				"white" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_white.png",
+				"pipe_navy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_navy.png",
+				"pipe_royalblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_royalblue.png",
+				"pipe_lightblue" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_lightblue.png",
+				"pipe_huntergreen" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_huntergreen.png",
+				"pipe_grey" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_grey.png",
+				"pipe_black" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_black.png",
+				"pipe_cream" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_cream.png",
+				"pipe_tan" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_tan.png",
+				"pipe_brown" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_brown.png",
+				"pipe_burgundy" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_burgundy.png",
+				"pipe_red" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_red.png", 
+				"pipe_orange" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_orange.png",
+				"pipe_gold" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_gold.png",
+				"pipe_yellow" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_yellow.png",
+				"pipe_turquoise" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_turquoise.png",
+				"pipe_hotpink" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_hotpink.png",
+				"pipe_silver" : "https://triplecrowncustom.com/wp-content/themes/triple/inc/images/hollywood/piping/pipe_silver.png"
+			}
+		},
+		"rhs":{
+			"horse": {"main":"inc/images/horse/Pimlico/resized/right/horse.png"},
+			"bodycolors": {
+				"navy": "inc/images/horse/Pimlico/resized/right/base/navy.png",
+				"royalblue": "inc/images/horse/Pimlico/resized/right/base/royalblue.png"
+			},
+			"binding":{
+				"silvergrey": "inc/images/horse/Pimlico/resized/right/binding/silvergrey.png",
+				"bind_turquoise": "inc/images/horse/Pimlico/resized/right/binding/bind_turquoise.png"
+			},
+			"piping":{
+				"purple": "inc/images/horse/Pimlico/resized/right/piping/pipe_purple.png",
+				"white": "inc/images/horse/Pimlico/resized/right/piping/pipe_white.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sticky out div</title>
+
+	<style type="text/css">
+
+	div{
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+		
+
+.rotate{
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.rotateOpp {
+
+/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-3);
+
+}
+
+
+.bigBlueBox{width: 100px; height: 65px; position: relative; left: -90px; top: -20px;color: red; font-weight: bold; z-index: 40;}
+.topA{height: 50%; width: 50%; float: left; display: block; z-index: 60;}
+.botA{position: relative; left: -12px;height: 50%; top: 12px; width: 50%; float: left; display: block; z-index: 60;}
+.botAP{position: relative; top: -34px; left: -5px; font-size: 50px; margin: 0; text-align: center; padding-top: 2px; color: #0D416E;}
+.topB{height: 50%; width: 50%; float: left; display: block; z-index: 60;}
+.botB{position: relative; left: -20px; height: 50%;width: 50%; float: left; display: block; z-index: 60;}
+.botBP{position: relative; left: 10px; top: -10px; font-size: 50px; margin: 0; text-align: center; padding-bottom: 2px; color: #0D416E;}
+.longBarAcross{position: relative; height: 20px; padding:5px; font-size: 100%; text-transform: uppercase; background-color: #0D416E; color: #fff; font-weight: bold; z-index: 20;}
+.container{max-width: 1000px; min-width: 440px; margin: 0px auto;padding: 0px; /*overflow: auto;*/  border: 1px solid black; z-index: 100;}
+.sidebar,.maincontent{display: inline; float: left;}
+.sidebar{z-index: 300; width: 40%; border-right: 6px solid black; padding: 10px 0px;}
+.maincontent{z-index: 250; width: 60%;}
+.button_icon{z-index: 400; width: 400px; height: 80px; padding: 0px 0px 0px 10px; font-family: Arial; color: white; height: auto;}
+.tag{width: 200px; padding: 10px; font-size: 16px; font-weight: bold; color: #fff; margin-bottom: 20px; text-align: right;}
+.closeMenu{z-index: 600; float: right; color: red; font-size: 32px; font-weight: bold; text-align: center; background-color: white; border:6px solid white; border-radius: 100%; width: 45px; height: 45px; padding: 0px 0px 0px 0px; clear: both;}
+.wrapCloseMenu{width: 100%; z-index: 500; overflow: auto; height: auto; display: block; margin-bottom: 16px;}
+.closeMenu:hover{background-color: red; color: blue; cursor: pointer; border: 6px solid red;}
+.red{background-color: red;}
+.black{background-color: black;}
+.white{background-color: white;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+.eight{width: 12.5%; display: inline; float: left; height: 200px; border: 3px solid transparent /*red*/;}
+.fiftyHigh{height: 50%; width: 100%; display: block; border: 1px solid black;}
+.menuButton{width: 100%; height: 100%; padding: 10px 0px; font-size: 16px; font-weight: bold; color: #fff; margin-bottom: 20px; text-align: right;}
+.background{background-image: url(img/burger.png); background-repeat: no-repeat; background-position: top left; background-size: 50%; min-width: 40px; width: 200px; margin-left: 9px;}
+.line{margin: 13px auto; height: 8px; width: 80%; display: block;}
+
+@media screen and (min-width: 1200px){
+	.containet{
+		width: 1200px;
+	}
+}
+
+	</style>
+</head>
+<body>
+
+<div id="titleMenu" class="container"><h1>Some title</h1></div>
+<!-- top menu -->
+<!-- div contains one to the left and one to the right -->
+<div id="topMenuWrap" class="container">
+	<div class="eight blue">
+		one of eight
+	</div><!-- ///// eight -->
+	<div class="eight white">
+		<div class="fiftyHigh" style="border: none;"></div>
+		<div class="fiftyHigh">
+		<!-- black button -->
+			<div id="tagMenu" class="menuButton white" style="padding: 0px; border: 1px solid black;">
+				<!-- menu icon -->
+				<div class="black line"></div>
+				<div class="black line"></div>
+				<div class="black line"></div>
+				<div class="black line"></div>
+			</div>
+		</div><!-- ///// fiftyHigh -->
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Menu</p>
+	</div><!-- ///// eight -->
+	<div class="eight">
+
+		<div class="fiftyHigh" style="border: none;">
+			<div id="" class="menuButton white">
+					<!-- menu icon -->
+			</div>
+		</div>
+			
+		<div id="tagMenuSix" class="fiftyHigh"  style="padding: 0px 0px 0px 18px;">
+			<p style="font-size: 90px; margin: 0;">Tt</p>
+		</div>
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Add Text</p>
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+	<div class="eight">
+		<div class="fiftyHigh" style="border: none;"></div>
+		<div class="fiftyHigh">
+			<!-- yellow tool tip -->
+			<div id="tagMenuFive" class="menuButton white" style="padding: 0px 48px 0px 30px;">
+				<p style="font-size: 90px; margin: 0; color: black;"><em>i</em></p>
+			</div>
+		</div>
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Info</p>
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+	<div class="eight">
+		<div class="fiftyHigh" style="border: none;">
+		<!-- red tooltip -->
+		<!-- was red -->
+		<!-- <div id="tagMenuTwo" class="menuButton red" style="padding: 0px 0px 0px 30px;"> -->
+			<div id="tagMenuTwo" class="menuButton white" style="padding: 0px 0px 0px 30px;">
+			<p style="font-size: 90px; margin: 0;"></p>
+			</div>
+		</div>
+		<div id="tagMenuSeven" class="fiftyHigh" style="padding: 0px 0px 0px 30px;">
+			<p style="font-size: 90px; margin: 0;">+</p>
+			
+		</div>
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Add Image</p>
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+	<div class="eight">
+		<div class="fiftyHigh" style="border: none;">
+		<!-- blue tool tip -->
+		<!-- was blue tip -->
+		<!-- <div id="tagMenuThree" class="menuButton blue"></div> -->
+			<div id="tagMenuThree" class="menuButton white"></div>
+		</div>
+		<div class="fiftyHigh" style="padding: 0px 0px 0px 34px; text-align: left;">
+			<p style="font-size: 114px; font-family: 'Arial Narrow'; line-height:0.7; margin: 0;">x</p>
+			
+		</div>
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Cancel</p>
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+	<div class="eight">
+<div class="fiftyHigh" style="border: none;">
+		<!-- blue tool tip -->
+		<!-- was blue tip -->
+		<!-- <div id="tagMenuThree" class="menuButton blue"></div> -->
+			<div id="tagMenuThree" class="menuButton white"></div>
+		</div>
+		<div class="fiftyHigh" style="padding: 0px 0px 0px 30px;">
+			<p style="font-size: 90px; margin: 0;">></p>
+			
+		</div>
+		<p style="font-size: 20px; margin: 0; font-weight: bold; text-align: center;">Try On</p>
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+	<div class="eight blue">
+	<!-- 	<div class="fiftyHigh"></div>
+		<div class="fiftyHigh"></div> -->
+		<!-- one of eight  no color -->
+	</div><!-- ///// eight -->
+</div><!-- //// top menu -->
+
+<div style="clear: both;"></div>
+
+<div style="margin-top: 50px;" id="container" class="container">
+	<div class="sidebar">
+
+
+
+		<div id="tagMenuFour" class="tag green">Tool Tip</div>
+
+		<!-- ///// first menu -->
+		<div id="menuLeft" style="display: none;" class="button_icon black" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenu" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+		<!-- ///// second menu -->
+		<div id="menuLeftTwo" style="display: none;" class="button_icon red" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenuTwo" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+		<!-- ///// third menu -->
+		<div id="menuLeftThree" style="display: none;" class="button_icon blue" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenuThree" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+		<!-- ///// fourth menu -->
+		<div id="menuLeftFour" style="display: none;" class="button_icon green" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenuFour" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+		<!-- ///// fifth menu -->
+		<div id="menuLeftFive" style="display: none;" class="button_icon green" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenuFive" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+		<!-- ///// sixth menu -->
+		<div id="menuLeftSix" style="display: none;" class="button_icon blue" >
+			<div class="wrapCloseMenu">
+				<div id="closeMenuSix" class="closeMenu">X</div>
+			</div>
+				<ul>
+					<li>Add text Menu</li>
+					<li>Font Size</li>
+					<li>Font Family</li>
+					<li>Font Color</li>
+					<li>5</li>
+				</ul>
+		</div><!-- /// button_icon -->
+
+
+
+	</div><!-- //// side bar -->
+<div class="maincontent">
+	
+	
+</div><!-- //// main content -->
+
+
+
+</div><!-- //// container -->
+
+
+
+<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+// $('#tagMenu').on("mouseover", function(){
+
+// 	$('#menuLeft').animate().scrollLeft(200);
+// });
+
+$("#tagMenu, #tagMenuSeven").on("click", function(){
+    $("#menuLeft").toggle("slow");
+});
+
+$("#closeMenu").on("click", function(){
+	$("#menuLeft").hide("slow");
+});
+
+
+$("#tagMenuTwo").on("click", function(){
+    $("#menuLeftTwo").toggle("slow");
+});
+
+$("#closeMenuTwo").on("click", function(){
+	$("#menuLeftTwo").hide("slow");
+});
+
+$("#tagMenuThree").on("click", function(){
+    $("#menuLeftThree").toggle("slow");
+});
+
+$("#closeMenuThree").on("click", function(){
+	$("#menuLeftThree").hide("slow");
+});
+
+$("#tagMenuFour").on("click", function(){
+    $("#menuLeftFour").toggle("slow");
+});
+
+$("#closeMenuFour").on("click", function(){
+	$("#menuLeftFour").hide("slow");
+});
+
+$("#tagMenuFive").on("click", function(){
+    $("#menuLeftFive").toggle("slow");
+});
+
+$("#closeMenuFive").on("click", function(){
+	$("#menuLeftFive").hide("slow");
+});
+
+$("#tagMenuSix").on("click", function(){
+    $("#menuLeftSix").toggle("slow");
+});
+
+$("#closeMenuSix").on("click", function(){
+	$("#menuLeftSix").hide("slow");
+});
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+User-agent:*
+Allow: /
+Disallow: /wp-content/themes/triple/site/
+Disallow: /wp-content/themes/triple/inc/
+Disallow: /wp-content/themes/triple/js/
+Disallow: /wp-content/themes/triple/css/
+Disallow: /wp-content/themes/triple/img/

@@ -1,0 +1,190 @@
+/*
+ Theme Name:   triple
+ Theme URI:    http://example.com/triple
+ Description:  triple
+ Author:       Damian O'Rourke
+ Author URI:   http://damianorourke.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         ecommerce-custom
+ Text Domain:  Triple Crown Custom
+*/
+/*  This file is part of Triple Crown Custom - TCC
+
+    TCC is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    TCC is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with TCC.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+a{
+	color: #0D416E;
+}
+
+article{
+	margin-bottom: 30px;
+}
+
+::selection {
+    background: #B8A14F;
+    color: #0D416E;
+    text-shadow: none;
+}
+
+
+html{
+	margin-top: 0 !important;
+}
+
+.twentyfourteen .tfwc{
+	max-width: 100%;
+}
+
+.site-main{
+	margin: 0 !important;
+}
+
+.thumbnail{
+	border: none !important;
+}
+
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: #B8A14F;
+}
+
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	color: #DCC77E;
+	font-weight: 900;
+	font-family: 'Playfair Display SC' !important;
+}
+
+.primary-navigation li {
+	font-family: 'Playfair Display SC' !important;
+}
+
+.menu-toggle:active,
+.menu-toggle:focus,
+.menu-toggle:hover {
+	background-color: #DCC77E;
+}
+
+
+.primary-navigation li:first-child {
+    margin: 0 !important;
+}
+
+
+.primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: #B8A14F;
+		color: #fff;
+	}
+
+.primary-navigation ul ul a:hover,
+.primary-navigation ul ul li.focus > a {
+	background-color: #DCC77E;
+}
+
+.primary-navigation ul ul {
+	background-color: #B8A14F;
+	font-family: 'Playfair Display SC' !important;
+}
+
+
+/*ul, ol{
+	margin: 0 !important;
+}
+*/
+.full-width.singular .site-content .hentry .post-thumbnail img {
+    margin-top: 0px;
+}
+
+.wrap h2, .wrap h3, .wrap h4, .wrap h5, .wrap h6, .wrap li, .wrap a{
+	color: inherit;
+}
+
+.entry-content p{
+	font-size: 16px !important;
+	line-height: 1.8;
+}
+
+
+.entry-author-link { display: none; }
+.entry-permalink { display: none; }
+.entry-date { display: none; }
+.entry-meta { display: none; }
+
+.nav-links{
+	color: #B8A14F;
+}
+
+.nav-links a, span.meta-nav a, .meta-nav{
+	color: #B8A14F !important;
+	font-size: 24px;
+	font-family: 'Open Sans', 'Times';
+	font-weight: normal;
+}
+
+.nav-links a:hover, span.meta-nav a:hover{
+	color: #0D416E !important;
+}
+
+.attachment{
+	margin: 0 !important;
+}
+
+th, td{
+	font-family: 'Open Sans', 'Times';
+}
+
+h1{
+	font-size: 33px;
+}
+
+button.menu-toggle{
+	top: 0;
+	left: 20px;
+	float: left;
+	background: #0D416E;
+}
+
+button, .button, input[type="button"], input[type="reset"], input[type="submit"],button:hover, button:focus, .button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background-color: #B8A14F;
+}
+
+
+@media screen and (min-width: 1200px){
+	.primary-navigation li:first-child{
+		margin-left: 70px;
+	}
+}
+
+
+.full-width.singular .site-content .hentry .post-thumbnail img {
+    margin-top: 0px !important;
+}
+
+
+@media screen and (max-width: 846px){
+	.full-width.singular .site-content .hentry .post-thumbnail img {
+    margin-top: 48px !important;
+	}
+}
+
