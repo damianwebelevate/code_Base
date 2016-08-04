@@ -1,0 +1,231 @@
+
+/*iphone 4/5/ portrait*/
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait){
+/*	body{background: blue;}*/
+	.innerWrapper{height: 370px;}
+	h1.heading{font-size: 40px; margin-top: 5px;}
+	h2.subHeading{font-size: 30px; line-height: 40px;}
+	h3.smallHeading{font-size: 20px; line-height: 30px;}
+	.partA{height: 185px;}
+	.partA p{font-size: 16px; line-height: 25px;}
+	.partB{height: 200px; background-image: url(../images/Group_images.png);
+	background-repeat: no-repeat; background-size: 100%; background-position: bottom center;}
+	.partC{height: 7%;}
+	.icons{width: 150px;}
+	.arrow{/*width: 40px;*/ display: none;}
+
+	/*// what is hypocare*/
+	#WhatisHypocare{padding-top: 30px; min-height: 610px;}
+	.innerWhatIsHypocare{width: 100%;}
+	.innerWhatIsHypocare p{font-size: 16px;line-height: 25px;}
+	.partBA{height: 20%;}
+	.backgroundWhatIs{min-height: 570px; background-position: bottom center;}
+	.marginAll{margin: 10px;}
+	.lineBreak{height: 10px;}
+
+
+	/*// why use hyupocare*/
+	#TheScience{min-height: 1360px;}
+	.innerHalfHigh p{font-size: 16px; line-height: 25px; width: 95%; margin: 0 auto;}
+	.halfHighA{min-height: 560px;padding: 20px 0px;text-align: center;}
+	.halfHighB{min-height: 760px;padding: 20px 0px;text-align: center;}
+
+	/*// your hypocare stories*/
+	#feedback{min-height: 530px;text-align: center;padding-top: 30px;}
+	.part20{min-height: 100px;}
+	.part80{min-height: 380px;}
+	blockquote{font-size: 16px; line-height: 25px; width: 95%; margin: 0 auto;}
+
+
+	/*// where to buy*/
+	#WhereToBuy{min-height: 520px; padding-top: 20px; text-align: center;}
+	#map{width: 80%;height: 300px;}
+
+	/*// contact*/
+	#contact{min-height: 710px; padding-top: 20px; text-align: center;}
+	.sixty{height: 260px;}
+	.fourty{height: 300px;}
+	#contact h2.subHeading{font-size: 20px !important;}
+	.input{display: block;min-width: 320px;}
+	.textarea{height: 66px;}
+	.formButton{width: 266px;}
+	input[type="text"], input[type="email"]{width: 37%;}
+
+}
+/*iphone 4/5/6 landscape*/
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape){
+/*	body{background: orange;}*/
+	#page1{margin-top: 100px; height: 460px;}
+	.innerWrapper{height: 440px;}
+	h1.heading{font-size: 50px; margin-top: 5px;}
+	h2.subHeading{font-size: 40px; line-height: 50px;}
+	h3.smallHeading{font-size: 20px; line-height: 30px;}
+	.partA{height: 175px;}
+	.partA p{font-size: 20px; line-height: 27px;}
+	.partB{height: 230px; background-image: url(../images/Group_images.png);
+	background-repeat: no-repeat; background-size: 100%; background-position: bottom center;}
+	.icons{width: 200px;}
+	.arrow{/*width: 40px;*/ display: none;}
+
+	/*// what is hypocare*/
+	#WhatisHypocare{padding-top: 30px; min-height: 600px;}
+	.innerWhatIsHypocare{width: 100%;}
+	.innerWhatIsHypocare p{font-size: 20px; line-height: 27px;}
+	.partBA{height: 20%;}
+	.backgroundWhatIs{min-height: 560px; background-position: bottom center;}
+	.marginAll{margin: 10px;}
+	.lineBreak{height: 10px;}
+
+
+	/*// why use hyupocare*/
+	#TheScience{min-height: 1360px;}
+	.innerHalfHigh p{font-size: 20px; line-height: 27px; width: 95%; margin: 0 auto;}
+	.halfHighA{min-height: 560px;padding: 20px 0px;text-align: center;}
+	.halfHighB{min-height: 760px;padding: 20px 0px;text-align: center;}
+
+	/*// your hypocare stories*/
+	#feedback{min-height: 530px;text-align: center;padding-top: 30px;}
+	.part20{min-height: 100px;}
+	.part80{min-height: 380px;}
+
+
+	/*// where to buy*/
+	#WhereToBuy{min-height: 520px; padding-top: 20px; text-align: center;}
+	#map{width: 80%;height: 300px;}
+
+	/*// contact*/
+	#contact{min-height: 710px; padding-top: 20px; text-align: center;}
+	.sixty{height: 260px;}
+	.fourty{height: 300px;}
+	#contact h2.subHeading{font-size: 20px !important;}
+	.input{display: block;min-width: 320px;}
+	.textarea{height: 66px; width: 78%;}
+	.formButton{width: 266px;}
+	input[type="text"], input[type="email"]{width: 37%;}
+
+}
+
+/*iphone 6 iphone 6 plus landscape */
+/*@media only screen and (min-width: 736px) and (max-width: 767px) and (orientation: landscape){
+	.arrow{display: none;}
+  .hiddenDesktop{display: block;}
+  .hiddenMobile{display: none;}
+  #menu{padding-top: 0;}
+  #menu li{width: 90%; display: block; float: none; line-height: normal;}
+  #menu li:not(:first-child){margin: 5px auto; border: 1px solid blue; border-radius: 5px; -webkit-border-radius: 5px;}
+  #menu li:nth-child(4){display: none;}
+  #menu li:first-child{margin: 0 auto;}
+  #sideMenu{display: none;}
+  .innerWrapper{max-width: 480px;background-size: 110%;background-position: bottom 95px center;}
+  h1.heading{font-size: 40px; margin-top: 10px;}
+  h2.subHeading{font-size: 30px;}
+  .partA p{font-size: 20px; line-height: 1.2em; width: 80%; margin: 0 auto;}
+  .icons{width: 160px;}
+  .arrow{width: 40px;}
+  .input{
+  	display: block;
+  	min-width: 320px;
+  }
+
+  .partB{
+  	height: 250px;
+    background-image: url(../images/Group_images.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+  }
+
+  .icons{
+  	width: 190px;
+  }
+
+}*/
+
+
+/*// between ipad and laptops*/
+@media only screen and (min-width: 767px) and (max-width: 1119px){
+
+/*	body{background-color: yellow;}*/
+
+	/*body{background: red;}*/
+	body{
+		font-size: 12px;
+	}
+
+	.linebreak{
+		display: none;
+	}
+
+	.partA{
+		padding-top: 20px;
+	}
+
+	.partC{
+		height: 8%;
+	}
+
+	.partD{
+		height: 4%;
+	}
+
+	.innerWhatIsHypocare{
+		padding-top: 6%;
+	}
+
+	/*.icons{
+		width: 256px;
+		height: 60px;
+		margin: 2% auto;
+	}*/
+
+	.arrow{
+		height: 40px;
+		width: 52px;
+		margin: -6px auto;
+	}
+
+	.partA p, p{
+		font-size: 24px;
+		/*font-size: 1.25em;*/
+		line-height: 30px;
+		/*line-height: 1.6875em;*/
+	}
+
+	h1.heading{
+		font-size: 65px;
+		margin: 20px;
+	}
+
+	h1.headingTwo{
+		font-size: 55px;
+		margin: 20px;
+	}
+
+	h2.subHeading{
+		/*font-size: 45px;*/
+		margin: 16px;
+		font-size: 2.8125em;
+	}
+
+	h3.smallHeading{
+		font-size: 30px;
+		/*font-size: 1.875em;*/
+		margin-top: 10px;
+	}
+
+	.innerWrapper{
+		max-width: 1100px;
+		background-size: 85%;
+		background-position: bottom 50px center;
+	}
+
+	#map{
+		width: 90%;
+		height: 80%;
+	}
+
+	.textarea{
+		height: 200px;
+	}
+}
+

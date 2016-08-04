@@ -1,0 +1,337 @@
+@media only screen and (min-width:1900px){#page1{margin-top:90px;}
+.section{height:900px;}
+#page4{height: 680px;}
+#page4 .part20{height: 25%;}
+#page4 .part80{height: 75%;}
+.thirdC, .thirdB{padding-top: 5%;}
+#page5{padding-top: 30px;}
+.inside{position:relative;height:100%;}
+body{line-height:normal;font-size:14px;}
+.partA{padding-top:28px;}
+.partC{height:10%;}
+.partD{height:4%;}
+.icons{width:329px;height:auto;margin:0 auto;}
+.arrow{height:40px;width:52px;margin:-6px auto;}
+.partA p, p{font-size:24px;line-height:30px;}
+h1.heading{font-size:65px;margin-top:10px;}
+h1.headingTwo{font-size:55px;margin-top:20px;}
+h2.subHeading{margin:16px;font-size:2.8125em;}
+h3.smallHeading{font-size:30px;margin-top:10px;}
+.innerWrapperNoImage, .innerWrapper, .innerMenu{max-width:1400px;}
+.innerWrapper{background-size:100%;background-position:bottom 122px center;}
+img.hiddenMobile{margin:0 auto;}
+.innerWhatIsHypocare{padding-top:6%;}
+.innerWhatIsHypocare p, .innerHalfHigh p{width:88%;text-align:center;margin:0 auto;font-size:20px;}
+.innerhttp://localhost/development/High p{width:58%;}
+#WhatIsHypocare{padding-left:30px;padding-right:30px;}
+.backgroundWhatIs{max-width:1900px;margin:0 auto;}
+.halfHighB{max-width:1900px;margin:0 auto;}
+#map{width:100%;height:77%;}
+.bottomToTop{top:30px;}
+input[type="text"], input[type="email"]{width:20%;}
+.textarea{width:41%;padding:8px;height:250px;}
+.formButton{width:42%;}
+}
+@media only screen and (min-width:1400px) and (max-width:1900px){#page1{margin-top:90px;}
+.section{height:800px;}
+.inside{height:100%;}
+body{font-size:12px;}
+.partA{padding-top:20px;}
+.partC{height:8%;}
+.partD{height:4%;}
+.innerWhatIsHypocare{padding-top:6%;}
+.innerWhatIsHypocare p, .innerHalfHigh p{width:65%;text-align:center;margin:0 auto;font-size:18px;line-height:22px;}
+.icons{width:256px;height:60px;margin:2% auto;}
+.arrow{height:40px;width:52px;margin:-6px auto;}
+.partA p, p{font-size:24px;line-height:30px;}
+h1.heading{font-size:65px;margin:20px;}
+h1.headingTwo{font-size:55px;margin:20px;}
+h2.subHeading{margin:16px;font-size:2.8125em;}
+h3.smallHeading{font-size:30px;margin-top:10px;}
+.innerWrapper{max-width:1100px;background-size:100%;background-position:bottom 87px center;}
+#map{width:90%;height:80%;}
+.textarea{height:200px;width:45%;}
+input[type="text"], input[type="email"]{width:22%;}
+#sendForm{width:46%;}
+}
+@media only screen and (min-width:1024px) and (max-width:1400px){#page1{margin-top:90px;height:600px;}
+.icons{width:200px;height:auto;margin-top:20px;}
+#page2{height:500px;}
+.partBA{height:20%;}
+#page3{height:1000px;}
+#page4{height:640px;}
+.thirdC, .thirdB{padding-top:5%;}
+#page5{height:740px;padding-top:40px;}
+#map{width:90%;height:500px;}
+#page6{height:660px;}
+.textarea{height:200px;width:508px;}
+input[type="text"], input[type="email"]{width:20%;}
+.formButton{width:523px;}
+.inside{height:100%;}
+body{font-size:12px;}
+.partA{padding-top:20px;}
+.partC{height:8%;}
+.partD{height:4%;}
+.innerWhatIsHypocare{padding-top:3%;}
+.innerWhatIsHypocare p, .innerHalfHigh p{width:65%;text-align:center;margin:0 auto;font-size:18px;line-height:22px;}
+.halfHighA{height:400px;}
+.halfHighB{height:600px;}
+.arrow{height:40px;width:52px;margin:-6px auto;}
+.partA p, p{font-size:24px;line-height:30px;}
+h1.heading{font-size:65px;margin:20px;}
+h1.headingTwo{font-size:55px;margin:20px;}
+h2.subHeading{margin:16px;font-size:2.8125em;}
+h3.smallHeading{font-size:30px;margin-top:10px;}
+.innerWrapper{max-width:1100px;background-size:85%;background-position:bottom 50px center;}
+}
+@media only screen and (min-width:704px) and (max-width:1024px){#page1{height:704px;margin-top:90px;}
+.inside, .section{height:100%;display:block;box-sizing:border-box;}
+#page2{height:800px;}
+.partBA{height:20%;}
+#page3{height:1440px;}
+.halfHighA, .halfHighB{padding-top:60px;}
+.halfHighA{height:570px;}
+.halfHighB{height:790px;}
+#page4{height:680px;}
+.thirdC, .thirdB{padding-top:5%;}
+#page5{height:650px;padding-top:40px;}
+#map{height:400px;width:85%;}
+#page6{height:770px;}
+.textarea{height:200px;width:528px;}
+input[type="text"], input[type="email"]{width:25%;}
+.formButton{width:543px;margin-bottom:50px;}
+#topMenu li a, #topMenu li{line-height:20px;line-height:1.25em;}
+.partC{height:10%;}
+.partD{height:4%;}
+.icons{width:230px;height:54px;margin:10px auto;}
+.arrow{height:40px;width:52px;margin:-6px auto;}
+.partA p{font-size:24px;line-height:30px;}
+.innerWhatIsHypocare p{line-height:30px;width:90%;margin:0 auto;font-size:24px;}
+.innerHalfHigh p{line-height:30px;width:90%;margin:0 auto;font-size:24px;}
+.marginTopBot, .marginBottom{margin-bottom:50px !important;}
+h1.heading{font-size:4.0625em;margin-top:0.4375em;}
+h2.subHeading{margin:0.25em;font-size:2.8125em;}
+h3.smallHeading{font-size:2em;line-height:1.5em;}
+.innerWrapper{background-size:95%;background-position:bottom 110px center;}
+.innerWhatIsHypocare{margin:0 50px 0 0;}
+.marginBottom, .marginTopBot{margin:0;}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){#page2{height:760px;}
+.innerWhatIsHypocare{width:90%;}
+.partBA{height:30%;}
+#page3{height:1650px;}
+#page4{height:760px;}
+#page4 .headingTwo{line-height:45px;}
+.halfHighA{height:700px;}
+.halfHighB{height:900px;}
+.part20{padding-top:0;}
+#page6 .part20{padding-top:20px;}
+.textarea{height:200px;width:526px;}
+input[type="text"], input[type="email"]{width:33%;}
+.formButton{width:540px;margin-bottom:50px;}
+.innerHalfHigh p{width:90%;}
+.marginTopBot, .marginBottom{margin-bottom:50px !important;}
+}
+@media only screen and (min-width:1023px) and (max-width:1119px){#page1{height:704px;margin-top:90px;}
+.inside, .section{height:100%;display:block;box-sizing:border-box;}
+#page2{height:655px;}
+.partBA{height:20%;}
+#page3{height:1440px;}
+.halfHighA, .halfHighB{padding-top:60px;}
+.halfHighA{height:570px;}
+.halfHighB{height:790px;}
+#page4{height:680px;}
+.thirdC, .thirdB{padding-top:5%;}
+#page5{height:650px;padding-top:40px;}
+#map{height:400px;width:85%;}
+#page6{height:650px;}
+.textarea{height:200px;width:528px;}
+input[type="text"], input[type="email"]{width:25%;}
+.formButton{width:543px;margin-bottom:50px;}
+#menu li{line-height:20px;line-height:1.25em;}
+.partC{height:10%;}
+.partD{height:4%;}
+.icons{width:256px;height:60px;margin:0 auto;}
+.arrow{height:40px;width:52px;margin:-6px auto;}
+.partA p{font-size:24px;line-height:30px;}
+.innerWhatIsHypocare p{line-height:30px;width:90%;margin:0 auto;font-size:24px;}
+.innerHalfHigh p{line-height:30px;width:90%;margin:0 auto;font-size:24px;}
+.marginTopBot, .marginBottom{margin-bottom:50px !important;}
+h1.heading{font-size:4.0625em;margin-top:0.4375em;}
+h2.subHeading{margin:0.25em;font-size:2.8125em;}
+h3.smallHeading{font-size:2em;line-height:1.5em;}
+.innerWrapper{background-size:95%;background-position:bottom 110px center;}
+.innerWhatIsHypocare{margin:0 50px 0 0;}
+.marginBottom, .marginTopBot{margin:0;}
+}
+@media only screen and (min-width:320px) and (max-width:703px){
+.innerWrapper{height:370px;}
+h1.heading{font-size:40px;margin-top:5px;}
+h2.subHeading{font-size:30px;line-height:40px;}
+h3.smallHeading{font-size:20px;line-height:30px;}
+.partA{height:185px;}
+.partA p{font-size:16px;line-height:25px;}
+.partB{height:220px;background-image:url(../images/Group_images.png);background-repeat:no-repeat;background-size:100%;background-position:bottom center;}
+.partC{height:7%;}
+.icons{width:150px;}
+.arrow{display:none;}
+#WhatisHypocare{padding-top:30px;min-height:610px;}
+.innerWhatIsHypocare{width:100%;}
+.innerWhatIsHypocare p{font-size:16px;line-height:25px;}
+.partBA{height:20%;}
+.backgroundWhatIs{min-height:570px;background-position:bottom center;}
+.marginAll{margin:10px;}
+.lineBreak{height:10px;}
+#TheScience{min-height:1360px;}
+.innerHalfHigh p{font-size:16px;line-height:25px;width:95%;margin:0 auto;}
+.halfHighA{min-height:560px;padding:20px 0px;text-align:center;}
+.halfHighB{min-height:760px;padding:20px 0px;text-align:center;}
+#feedback{min-height:530px;text-align:center;padding-top:30px;}
+.part20{min-height:100px;}
+.part80{min-height:380px;}
+blockquote{font-size:16px;line-height:25px;width:95%;margin:0 auto;}
+#WhereToBuy{min-height:520px;padding-top:20px;text-align:center;}
+#map{width:80%;height:300px;}
+#contact{min-height:710px;padding-top:20px;text-align:center;}
+.sixty{height:260px;}
+.fourty{height:300px;}
+#contact h2.subHeading{font-size:20px !important;}
+.input{display:block;min-width:320px;}
+.textarea{height:66px;}
+.formButton{width:266px;}
+input[type="text"], input[type="email"]{width:37%;}
+#biggerBottle{display: block; margin: 20px auto;}
+}
+@media screen and (max-width:703px){body{overflow:scroll;-webkit-overflow-scrolling:touch;}
+#page1{margin-top:90px;height:460px;}
+.backgroundWhatIs{background-image: none;}
+#page2 .inside{padding:40px 0;height:620px;}
+.halfHighA,{height:640px;padding-top:40px;}
+.halfHighB{height:780px;padding-top:40px;}
+#page5 .inside{padding:40px 0;}
+.section{width:100%;height:100%;}
+.innerWrapper{max-width:480px;margin:0 auto;text-align:center;background-image:none;}
+.hiddenDesktop{display:block;}
+.hiddenMobile{display:none;}
+#sideMenu{display:none;}
+.third, .thirdA{display:block;float:none;clear:both;width:100%;height: 190px; margin:0;}
+.thirdA{height: 250px;}
+.thirdC,.thirdB{display:block;float:none;clear:both;width:100%;margin:0;}
+.thirdB{height:343px;}
+.third:first-child{height:5px;}
+.thirdC:first-child{padding-top:20px;height:200px;}
+.horsewareLogo{margin: 0 auto 30px auto;}
+#linkToSafety{display:block;margin:0 auto;}
+.social{display:none;}
+#menu{height:65px;}
+#linkToSafety{display:block;margin:0 auto;}
+.section, .inside{height:100%;display:block;}
+#page4{height:945px;}
+}
+
+
+/*iphone 4/5/ portrait*/
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait){
+/*	body{background: blue;}*/
+	.innerWrapper{height: 370px;}
+	h1.heading{font-size: 40px; margin-top: 5px;}
+	h2.subHeading{font-size: 30px; line-height: 40px;}
+	h3.smallHeading{font-size: 20px; line-height: 30px;}
+	.partA{height: 185px;}
+	.partA p{font-size: 16px; line-height: 25px;}
+	.partB{height: 200px; background-image: url(../images/Group_images.png);
+	background-repeat: no-repeat; background-size: 100%; background-position: bottom center;}
+	.partC{height: 7%;}
+	.icons{width: 150px;}
+	.arrow{/*width: 40px;*/ display: none;}
+
+	/*// what is hypocare*/
+	#WhatisHypocare{padding-top: 30px; min-height: 610px;}
+	.innerWhatIsHypocare{width: 100%;}
+	.innerWhatIsHypocare p{font-size: 16px;line-height: 25px;}
+	.partBA{height: 20%;}
+	.backgroundWhatIs{min-height: 570px; background-position: bottom center;}
+	.marginAll{margin: 10px;}
+	.lineBreak{height: 10px;}
+
+
+	/*// why use hyupocare*/
+	#TheScience{min-height: 1360px;}
+	.innerHalfHigh p{font-size: 16px; line-height: 25px; width: 95%; margin: 0 auto;}
+	.halfHighA{min-height: 560px;padding: 20px 0px;text-align: center;}
+	.halfHighB{min-height: 760px;padding: 20px 0px;text-align: center;}
+
+	/*// your hypocare stories*/
+	#feedback{min-height: 530px;text-align: center;padding-top: 30px;}
+	.part20{min-height: 100px;}
+	.part80{min-height: 380px;}
+	blockquote{font-size: 16px; line-height: 25px; width: 95%; margin: 0 auto;}
+
+
+	/*// where to buy*/
+	#WhereToBuy{min-height: 520px; padding-top: 20px; text-align: center;}
+	#map{width: 80%;height: 300px;}
+
+	/*// contact*/
+	#contact{min-height: 710px; padding-top: 20px; text-align: center;}
+	.sixty{height: 260px;}
+	.fourty{height: 300px;}
+	#contact h2.subHeading{font-size: 20px !important;}
+	.input{display: block;min-width: 320px;}
+	.textarea{height: 66px; width: 252px;}
+	.formButton{width: 266px;}
+	input[type="text"], input[type="email"]{width: 27%;}
+
+}
+/*iphone 4/5/6 landscape*/
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape){
+/*	body{background: orange;}*/
+	#page1{margin-top: 100px; height: 460px;}
+	.innerWrapper{height: 440px;}
+	h1.heading{font-size: 50px; margin-top: 5px;}
+	h2.subHeading{font-size: 40px; line-height: 50px;}
+	h3.smallHeading{font-size: 20px; line-height: 30px;}
+	.partA{height: 175px;}
+	.partA p{font-size: 20px; line-height: 27px;}
+	.partB{height: 230px; background-image: url(../images/Group_images.png);
+	background-repeat: no-repeat; background-size: 100%; background-position: bottom center;}
+	.icons{width: 200px;}
+	.arrow{/*width: 40px;*/ display: none;}
+
+	/*// what is hypocare*/
+	#WhatisHypocare{padding-top: 30px; min-height: 600px;}
+	.innerWhatIsHypocare{width: 100%;}
+	.innerWhatIsHypocare p{font-size: 20px; line-height: 27px;}
+	.partBA{height: 20%;}
+	.backgroundWhatIs{min-height: 560px; background-position: bottom center;}
+	.marginAll{margin: 10px;}
+	.lineBreak{height: 10px;}
+
+
+	/*// why use hyupocare*/
+	#TheScience{min-height: 1360px;}
+	.innerHalfHigh p{font-size: 20px; line-height: 27px; width: 95%; margin: 0 auto;}
+	.halfHighA{min-height: 560px;padding: 20px 0px;text-align: center;}
+	.halfHighB{min-height: 760px;padding: 20px 0px;text-align: center;}
+
+	/*// your hypocare stories*/
+	#feedback{min-height: 530px;text-align: center;padding-top: 30px;}
+	.part20{min-height: 100px;}
+	.part80{min-height: 380px;}
+
+
+	/*// where to buy*/
+	#WhereToBuy{min-height: 520px; padding-top: 20px; text-align: center;}
+	#map{width: 80%;height: 300px;}
+
+	/*// contact*/
+	#contact{min-height: 710px; padding-top: 20px; text-align: center;}
+	.sixty{height: 260px;}
+	.fourty{height: 300px;}
+	#contact h2.subHeading{font-size: 20px !important;}
+	.input{display: block;min-width: 320px;}
+	.textarea{height: 66px; width: 78%;}
+	.formButton{width: 266px;}
+	input[type="text"], input[type="email"]{width: 37%;}
+
+}

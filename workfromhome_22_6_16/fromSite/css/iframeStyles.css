@@ -1,0 +1,63 @@
+.imageHeader{
+	width: 223px;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
+	
+.iframeWindow{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: block;
+	min-height: 1294px;
+	overflow: visible;
+	border: none;
+}
+
+.holderIframe{
+	position: relative; top: 0px; width: 100%; background-color: white; min-height: 1294px; overflow: visible; z-index: 2000;
+}
+
+button:active,
+.button:active,
+input[type="button"]:active, input[type="button"], button,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border: 2px solid transparent;
+}
+
+.deleteImage{
+	background-color: transparent;
+	color: #0D416E;
+	margin: 0px auto 10px auto;
+	width: 90%;
+}
+
+#mainNav{
+	text-transform: uppercase;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.menu{
+	font-family: 'Playfair Display SC' !important;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.active .active > a,
+.active .active > a,
+.active .active > a,
+.active .active > a {
+	color: #DCC77E;
+	font-weight: 900;
+	font-family: 'Playfair Display SC' !important;
+}
+
+/*#img-out, #imgOutOut{
+	display: none;
+}*/

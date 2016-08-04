@@ -1,0 +1,227 @@
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	display: inline;
+	float: left;
+}
+
+.hiddenDesktop{
+	display: none;
+}
+
+.hiddenMobile{
+	display: block;
+}
+
+.section{
+/*	border: 1px solid red;*/
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.nextPageButton{
+	position: relative;
+}
+
+#section0{
+	background-image: url(../images/Group_images.png);
+	background-position: bottom center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.fp-scroller{
+    overflow:hidden;
+}
+
+
+/*blue: #0084c8;
+grey: #7d6a6a;*/
+
+h1.heading{
+	font-size: 50pt;
+	font-family: 'Montserrat', 'Open Sans', 'Arial';
+	font-weight: 400;
+	color: #0084c8;
+	margin:0;
+}
+
+h2.subHeading{
+	font-size: 35pt;
+	font-family: 'Roboto', 'Open Sans', 'Arial';
+	font-weight: 300;
+	color: #0084c8;
+	margin:0;
+}
+
+h4.smallHeading{
+	font-size: 20pt;
+	font-family: 'Montserrat', 'Open Sans', 'Arial';
+	font-weight: 400;
+	color: #0084c8;
+	margin-top: 20px;
+}
+
+#innerSectionA p{
+	font-size: 14pt;
+	font-family: 'Roboto', 'Open Sans', 'Arial';
+	font-weight: 300;
+	color: #7d6a6a;
+	margin:0;
+}
+
+.intro p{
+	color: #0084c8;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+
+#menu{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	min-height: 125px;
+	overflow: auto;
+}
+
+#menu li{
+	width: 20%;
+	text-align: center;
+	font-family: 'Montserrat', 'Open Sans', 'Arial';
+	font-weight: 600;
+	font-size: 18pt;
+}
+
+#sideMenu li{
+	margin: 10px;
+}
+
+#sideMenu {
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    list-style-type: none;
+}
+
+#sideMenu li a{
+    font-size: 20px;
+    color: blue;
+}
+
+#sideMenu li>a.active, #sideMenu li>a.active:hover {
+    font-size: 30px;
+    color: purple;
+    position: relative;
+    left: -2px;
+}
+
+#sideMenu li>a:hover{
+	font-size: 25px;
+	position: relative;
+    left: -1px;
+}
+
+#sideMenu li{
+	height: 30px;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+#menu li>a.active{
+	color: yellow;
+}
+
+.section img{
+	display: block;
+	margin: 0 auto;
+}
+
+#innerSectionA{
+	position: relative;
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    right: 200px;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 960px){
+		#menu{
+			display: block;
+			overflow: auto;
+			min-height: 177px;
+		}
+
+		#menu li{
+			display: block;
+			clear: both;
+			width: 100%;
+			float: none;
+			text-align: left;
+		}
+
+		.hiddenDesktop{
+			display: block;
+		}
+
+		.hiddenMobile{
+			display: none;
+		}
+
+		#sideMenu{
+			display: none;
+		}
+	}

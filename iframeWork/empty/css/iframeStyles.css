@@ -1,0 +1,30 @@
+.imageHeader{
+	width: 223px;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
+	
+.iframeWindow{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: block;
+	min-height: 1294px;
+	overflow: visible;
+	border: none;
+}
+
+.holderIframe{
+	position: relative; top: 0px; width: 100%; background-color: white; min-height: 1294px; overflow: visible; z-index: 2000;
+}
+
+button:active,
+.button:active,
+input[type="button"]:active, input[type="button"], button,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: #B8A14F;
+	border: 2px solid transparent;
+}
+

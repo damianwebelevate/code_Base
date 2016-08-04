@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Safety Data</title>
+	<style>
+		body{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+	</style>
+
+</head>
+<body>
+<embed src="downloads/Hypocare_MSDS.pdf" id="embed" type="application/pdf">
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+	
+	(function($){
+		
+		$(window).on("load", function(){
+			var x = getWindow();
+			var width = x.width;
+			var height = x.height;
+			$('#embed').css({"width" : width, "height" : height});
+		});
+
+		$(window).on("resize", function(){
+			var x = getWindow();
+			var width = x.width;
+			var height = x.height;
+			$('#embed').css({"width" : width, "height" : height});
+			$('#embed').arr("src", "downloads/Hypocare_MSDS.pdf");
+		});
+
+		function getWindow(){
+
+			var width = window.innerWidth;
+			var height = window.innerHeight;
+			var minWidth = 320;
+			var minHeight = 480;
+
+			if(width <= minWidth){
+				width = minWidth;
+			}
+
+			if(height <= minHeight){
+				height = minHeight;
+			}
+
+			return {"width" : width, "height" : height};
+		}
+
+
+	})(jQuery);
+</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hypocare Website</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body id="body">
+	<ul id="menu">
+		<li><img class="hiddenDesktop" src="images/logo.png" /></li>
+		<li><a id="firstPageLink" href="#section0">First slide</a></li>
+		<li><a id="secondPageLink" href="#section1">Second slide</a></li>
+		<li><img class="hiddenMobile" src="images/logo.png" /></li>
+		<li><a id="thirdPageLink" href="#section2">Third slide</a></li>
+		<li><a id="fourthPageLink" href="#section3">Fourth slide</a></li>
+	</ul>
+	<ul id="sideMenu">
+		<li>
+			<a id="firstPageLinkSide" href="#section0" title="First slide">&#9679;</a>
+			<div class="tooltip"><span class="tooltiptext">Page 1</span></div>
+		</li>
+		<li><a id="secondPageLinkSide" href="#section1" title="Second slide">&#9679;</a></li>
+		<li><a id="thirdPageLinkSide" href="#section2" title="Third slide">&#9679;</a></li>
+		<li><a id="fourthPageLinkSide" href="#section3" title="Fourth slide">&#9679;</a></li>
+	</ul>
+	<div class="section" id="section0">
+		<div id="innerSectionA">
+			<h1 class="heading">SKIN CARE</h1>
+			<h2 class="subHeading">Gentle Clensing Spray</h2>
+			<p>Instantly helps to soothe irritated skin.</p>
+			<p>Relief from scratching, stings and insect bites</p>
+			<p>Non-sting formula, safe for sensitive skin</p>
+			<h4 class="smallHeading">For pet &amp; Equine</h4>
+		</div>
+	</div>
+	<div class="nextPageButton">
+		<a href="#secondPage" title="What is Hypocare?" >
+			<img id="nextPageButton" style="display: block; margin: 0 auto;" src="images/arrow.png" alt="Image of arrow" />
+		</a>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
+	    <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+	</div>
+	<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
+	<div class="section" id="section3"><h1>One Image = One thousand words</h1>
+	<a id="#firstPage" href="#firstPage">TOP</a>
+	</div>
+
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+
+
+$(window).on('load', function(){
+	var x = getWindow();
+	var height = x.height;
+	var diff = x.diff;
+	var sMenu = $('#sideMenu').outerHeight();
+	var sMenuMargin = (height - sMenu) / 2;
+	$('.section').css({"height" : height, "padding-top" : diff});
+	$('#innerSectionA').css("height", height +"px");
+	$('.nextPageButton').css("top" , "-"+diff/3+"px");
+	$('#sideMenu').css("margin-top", sMenuMargin +"px");
+	$('#firstPageLink, #firstPageLinkSide').addClass("active");
+});
+
+
+$(window).on("resize", function(){
+	var x = getWindow();
+	var height = x.height;
+	var diff = x.diff;
+	var sMenu = $('#sideMenu').outerHeight();
+	var sMenuMargin = (height - sMenu) / 2;
+	$('.section').css({"height" : height, "padding-top" : diff});
+	$('#innerSectionA').css("height", height +"px");
+	$('.nextPageButton').css("top" , "-"+diff/3+"px");
+	$('#sideMenu').css("margin-top", sMenuMargin +"px");
+});
+
+window.addEventListener("click", function(event){
+	var ident = event.target.id;
+	var x = getWindow();
+	var positionOne = x.scrolling[0];
+	var positionTwo = x.scrolling[1];
+	var positionThree = x.scrolling[2];
+	var positionFour = x.scrolling[3];
+	// alert(ident);
+	switch(ident){
+		case "firstPageLink":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#firstPageLink, #firstPageLinkSide').toggleClass("active");
+		window.scrollTo(positionOne.x, positionOne.y);
+		break;
+		case "secondPageLink":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#secondPageLink, #secondPageLinkSide').addClass("active");
+		window.scrollTo(positionTwo.x, positionTwo.y);
+		break;
+		case "thirdPageLink":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#thirdPageLink, #thirdPageLinkSide').addClass("active");
+		window.scrollTo(positionThree.x, positionThree.y);
+		break;
+		case "fourthPageLink":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#fourthPageLink, #fourthPageLinkSide').addClass("active");
+		window.scrollTo(positionFour.x, positionFour.y);
+		break;
+		case "firstPageLinkSide":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#firstPageLink, #firstPageLinkSide').toggleClass("active");
+		window.scrollTo(positionOne.x, positionOne.y);
+		break;
+		case "secondPageLinkSide":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#secondPageLink, #secondPageLinkSide').addClass("active");
+		window.scrollTo(positionTwo.x, positionTwo.y);
+		break;
+		case "thirdPageLinkSide":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#thirdPageLink, #thirdPageLinkSide').addClass("active");
+		window.scrollTo(positionThree.x, positionThree.y);
+		break;
+		case "fourthPageLinkSide":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#fourthPageLink, #fourthPageLinkSide').addClass("active");
+		window.scrollTo(positionFour.x, positionFour.y);
+		break;
+		case "nextPageButton":
+		$('#menu li>a, #sideMenu li>a').removeClass("active");
+		$('#secondPageLink, #secondPageLinkSide').addClass("active");
+		window.scrollTo(positionTwo.x, positionTwo.y);
+		break;
+	}
+});
+
+
+function getWindow(){
+	var menu = $('#menu').outerHeight();
+	var diff = $(window).height() - menu;
+	var sectionHeight = diff / 2;
+	var bodyHeight = $('body').height();
+	var sections = document.getElementsByClassName("section").length;
+	var scroll = bodyHeight / sections;
+	var positionOne = {x: 0, y: 0};
+	var positionTwo = {x: 0, y: scroll};
+	var positionThree = {x: 0, y: scroll*2};
+	var positionFour = {x: 0, y: scroll*3};
+	var arr = [positionOne, positionTwo, positionThree, positionFour];
+	return {"height" : diff, "diff" : menu, "sectionHeight" : sectionHeight, "scrolling" : arr};
+}
+
+
+
+</script>
+</body>
+</html>
